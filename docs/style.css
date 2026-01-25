@@ -5,7 +5,7 @@
   background-color: #B71C1C;
   color: #FFFEF5;
 }
-.borderlessiframe {
+iframe {
   border: none;
   display: block;
 }
