@@ -3,7 +3,11 @@
 }
 #footerbody {
   background-color: #B71C1C;
-  color: #FFFEF5
+  color: #FFFEF5;
+}
+.borderlessiframe {
+  border: none;
+  display: block;
 }
 body {
   color: #1A1A1A;
