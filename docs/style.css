@@ -10,7 +10,7 @@
 .tablecenter {
   display: flex;
   justify-content: center;
-  text-align: justify;
+  text-align: center;
 }
 iframe {
   border: none;
