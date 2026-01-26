@@ -1,8 +1,6 @@
 #headerbody {
   background-color: #D66A28;
   text-align: center;
-  display: flex;
-  flex-wrap: wrap;  
 }
 #headerbody nav a {
   font-weight: 800;
@@ -11,7 +9,8 @@
   color: #FFFEF5;
   margin: 0 15px;
   font-family: 'Times New Roman', Georgia, serif;
-
+  display: flex;
+  flex-wrap: wrap;  
 }
 #headerbody nav a:hover {
   color: #001A4D;
