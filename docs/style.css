@@ -11,6 +11,8 @@ iframe {
 }
 body {
   color: #1A1A1A;
+  margin: 0;
+  padding: 0;
   background-color: #FFFEF5;
   font-family: 'Times New Roman', Georgia, serif;
 }
