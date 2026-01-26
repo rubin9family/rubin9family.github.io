@@ -2,6 +2,11 @@
   background-color: #D66A28;
   text-align: center;
 }
+#headerbody nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+}  
 #headerbody nav a {
   font-weight: 800;
   font-size: 20px;
@@ -9,8 +14,6 @@
   color: #FFFEF5;
   margin: 0 15px;
   font-family: 'Times New Roman', Georgia, serif;
-  display: flex;
-  flex-wrap: wrap;  
 }
 #headerbody nav a:hover {
   color: #001A4D;
