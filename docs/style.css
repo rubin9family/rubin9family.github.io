@@ -12,6 +12,7 @@
 }
 #headerbody nav a:hover {
   color: ##001A4D;
+  text-decoration: underline;
 }
 #footerbody {
   background-color: #B71C1C;
