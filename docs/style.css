@@ -1,9 +1,11 @@
 #headerbody {
   background-color: #D66A28;
+  text-align: center;
 }
 #footerbody {
   background-color: #B71C1C;
   color: #FFFEF5;
+  text-align: center;
 }
 iframe {
   border: none;
@@ -11,6 +13,7 @@ iframe {
 }
 body {
   color: #1A1A1A;
+  text-align: center;
   margin: 0;
   padding: 0;
   background-color: #FFFEF5;
