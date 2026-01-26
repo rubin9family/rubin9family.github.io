@@ -8,7 +8,8 @@
   text-align: center;
 }
 .tablecenter {
-  text-align: center;
+  justify-content: center;
+  text-align: left;
 }
 iframe {
   border: none;
