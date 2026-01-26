@@ -7,6 +7,9 @@
   color: #FFFEF5;
   text-align: center;
 }
+.tablecenter {
+  text-align: center;
+}
 iframe {
   border: none;
   display: block;
