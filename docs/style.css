@@ -6,8 +6,12 @@
   font-weight: 800;
   font-size: 20px;
   text-decoration: none;
+  color: #FFFEF5;
   margin: 0 15px;
   font-family: 'Times New Roman', Georgia, serif;
+}
+#headerbody nav a:hover {
+  color: ##001A4D;
 }
 #footerbody {
   background-color: #B71C1C;
