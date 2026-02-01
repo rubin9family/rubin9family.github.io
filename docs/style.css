@@ -50,11 +50,11 @@ header .main-nav li a:hover { /*Style for when hovering over each nav link*/
 
 footer .container {
   display: flex;
-  height: 250;
+  height: 250px;
 }
 footer .logo img{
   padding-top: 20px;
- }
+}
  
 footer .main-nav li {
   list-style-type: none;
@@ -72,8 +72,9 @@ footer .main-nav li a {
  }
 footer .main-nav li a:hover { /*Style for when hovering over each nav link*/
   color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
-  text-decoration: bold; /*Nav Bar Text to underline when Hovering*/
-
+  text-decoration: none; /*Nav Bar Text to underline when Hovering*/
+  font-weight: bold; 
+}
 
 /*Centering for Tables throughout website*/
 .tablecenter { /*Table to be centered*/
