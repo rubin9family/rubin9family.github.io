@@ -48,10 +48,11 @@ header .main-nav li a:hover { /*Style for when hovering over each nav link*/
   color: #FFFEF5; /*Footer text color to white*/
 }
 
+/*Footer Grid Container styles*/
 footer {
   display: grid;
   height: 250px;
-  grid-template-columns: 250px auto auto;
+  grid-template-columns: auto auto auto;
 }
 footer .logo img{
   height: 75px;
