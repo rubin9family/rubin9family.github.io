@@ -1,15 +1,20 @@
 #headerbody { /*Style of Body in Header iframe*/ /**/
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d34d00+0,ff8800+100 */
-  background: linear-gradient(to bottom,  #d34d00 0%,#ff8800 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  /*background-color: #D66A28; Header Color to orange*/
+  /*background: linear-gradient(to bottom,  #d34d00 0%,#ff8800 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-color: #D66A28; /*Header Color to orange*/
   text-align: center; /*Header Text Centered*/
+  height: 120px;
   position: absolute;
 }
 .logo {
   float: left;
 }
 header .main-nav {
-  
+  height: 120px;
+  float: left;
+  margin: 0;
+  padding: 0px 15px;
+  line-height: 120px;  
 }
 header .main-nav li { /*Style for the Nav bar in header*/
   /*For fixing the headers overflow to not separate multiword links*/
@@ -47,7 +52,7 @@ header .main-nav li a:hover { /*Style for when hovering over each nav link*/
   border: none; /*Remove Excess border*/
   display: block; /*Sets header iframe to block element*/
   width: 100%; /*Sets header iframe width on each page */
-  height: 250px; /*Sets header iframe height on each page */
+  height: 130px; /*Sets header iframe height on each page */
 }
 .footeriframe { /*Define the size of the footer iframe on each page*/
   display: block; /*Sets footer iframe to block element*/
