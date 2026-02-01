@@ -46,6 +46,10 @@ header .main-nav li a:hover { /*Style for when hovering over each nav link*/
 #footerbody { /*Style of Body in Footer iframe*/
   background-color: #B71C1C; /*Footer Background color to red*/
   color: #FFFEF5; /*Footer text color to white*/
+  width: 100%;
+  height: 100vh; /* Fills the iframe height */
+  overflow: hidden; /* Stops scrollbars from appearing inside the iframe */
+  box-sizing: border-box;
 }
 
 /*Footer Grid Container styles*/
