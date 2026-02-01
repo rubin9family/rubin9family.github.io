@@ -2,11 +2,17 @@
   background-color: #D66A28; /*Header Color to orange*/
   text-align: center; /*Header Text Centered*/
 }
+.logo {
+  float: left;
+}
 #headerbody nav { /*Style for the Nav bar in header*/
   /*For fixing the headers overflow to not separate multiword links*/
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  float: left;
+  margin: 0;
+  padding: 0px 15px;
 }  
 #headerbody nav a { /*Style for the text in each nav line*/
   font-weight: 800; /*Bold Nav Bar Text*/
