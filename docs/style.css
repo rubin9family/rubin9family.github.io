@@ -14,7 +14,7 @@
 header .logo img{
   display: block;
   height: 120px; 
-
+  float: left;
 }
 
 /*Header Nav Styling*/
