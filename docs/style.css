@@ -12,7 +12,7 @@
   flex-wrap: wrap;
   float: left;
   margin: 0;
-  padding: 0px 15px;
+  padding: 0px 250px;
 }  
 #headerbody nav a { /*Style for the text in each nav line*/
   font-weight: 800; /*Bold Nav Bar Text*/
