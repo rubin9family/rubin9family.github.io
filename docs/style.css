@@ -1,14 +1,3 @@
-/*Default Settings for website*/
-body { /*Default Style for text and background across websites*/
-  color: #1A1A1A; /*Sets body text font color to Black*/
-  text-align: center; /*Centers boby Text on webpage*/
-  margin: 0; /*Sets zero margin for body text*/
-  padding: 0px; /*Sets padding for body text to 0*/
-  background-color: #FFFEF5; /*Sets body Background to White */
-  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
-}
-
-
 /*Header Body Styling*/
 #headerbody { /*Style of Body in Header iframe*/ /**/
   background-color: #D66A28; /*Header Color to orange*/
@@ -106,4 +95,14 @@ footer .main-nav li a:hover { /*Style for when hovering over each nav link*/
   width: 100%; /*Sets footer iframe width on each page */
   height: 250px; /*Sets footer iframe height on each page */
   border: none; /*Remove Excess border*/
+}
+
+/*Default Settings for website*/
+body { /*Default Style for text and background across websites*/
+  color: #1A1A1A; /*Sets body text font color to Black*/
+  text-align: center; /*Centers boby Text on webpage*/
+  margin: 0; /*Sets zero margin for body text*/
+  padding: 0px; /*Sets padding for body text to 0*/
+  background-color: #FFFEF5; /*Sets body Background to White */
+  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
 }
