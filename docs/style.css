@@ -10,27 +10,23 @@
   float: left;
 }
 header .main-nav {
-  height: 120px;
-  float: left;
-  margin: 0;
-  padding: 0px 15px;
-  line-height: 120px;  
-}
-header .main-nav li { /*Style for the Nav bar in header*/
   /*For fixing the headers overflow to not separate multiword links*/
   display: flex;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
-  float: left;
   margin: 0;
-  padding: 0px 250px;
+  padding: 0px;
+  height: 120px;  
+  list-style: none;
+}
+header .main-nav li { /*Style for the Nav bar in header*/
+  padding: 0px 15px;
 }  
 header .main-nav li a { /*Style for the text in each nav line*/
   font-weight: 800; /*Bold Nav Bar Text*/
   font-size: 20px; /*Size for Nav Bar Text*/
   text-decoration: none; /*Remove defualt Underline*/
   color: #FFFEF5; /*Set color of Nav Bar Text to White*/
-  margin: 0 15px; /*Add a margin to Nav Bar Text*/
   font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Header Nav Bar*/
 }
 header .main-nav li a:hover { /*Style for when hovering over each nav link*/
