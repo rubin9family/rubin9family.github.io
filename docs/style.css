@@ -53,7 +53,7 @@ footer .container {
   height: 250px;
 }
 footer .logo img{
-  padding-top: 20px;
+  padding: 10px 20px;
 }
  
 footer .main-nav li {
@@ -65,8 +65,8 @@ footer .main-nav li a {
   color: white;
   text-decoration: none;
   font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Footer Nav Bar*/
-  font-weight: 200;
-  font-size: 20px;
+  font-weight: 100;
+  font-size: 12px;
   letter-spacing: 4px;
   padding: 0px 15px;
  }
@@ -93,7 +93,7 @@ footer .main-nav li a:hover { /*Style for when hovering over each nav link*/
 .footeriframe { /*Define the size of the footer iframe on each page*/
   display: block; /*Sets footer iframe to block element*/
   width: 100%; /*Sets footer iframe width on each page */
-  height: 250px; /*Sets footer iframe height on each page */
+  height: 160px; /*Sets footer iframe height on each page */
   border: none; /*Remove Excess border*/
 }
 
