@@ -14,7 +14,7 @@
 header .logo img{
   display: block;
   height: 120px; 
-  float: left;
+
 }
 
 /*Header Nav Styling*/
@@ -73,7 +73,6 @@ footer .main-nav li a {
 footer .main-nav li a:hover { /*Style for when hovering over each nav link*/
   color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
   text-decoration: none; /*Nav Bar Text to underline when Hovering*/
-  font-weight: bold; 
 }
 
 /*Centering for Tables throughout website*/
