@@ -48,21 +48,22 @@ header .main-nav li a:hover { /*Style for when hovering over each nav link*/
   color: #FFFEF5; /*Footer text color to white*/
 }
 
-footer .container {
-  display: flex;
+footer {
+  display: grid;
   height: 250px;
+  grid-template-columns: 250px auto auto;
 }
 footer .logo img{
   height: 75px;
   padding: 10px 20px;
 }
  
-footer .main-nav li {
+footer .right-nav li, .left-nav li {
   list-style-type: none;
-  display: inline-block;
+  
  }
  
-footer .main-nav li a {
+footer .right-nav li a, .left-nav li a {
   color: white;
   text-decoration: none;
   font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Footer Nav Bar*/
@@ -71,7 +72,7 @@ footer .main-nav li a {
   letter-spacing: 4px;
   padding: 0px 15px;
  }
-footer .main-nav li a:hover { /*Style for when hovering over each nav link*/
+footer .right-nav li a:hover, .left-nav li a:hover { /*Style for when hovering over each nav link*/
   color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
   text-decoration: none; /*Nav Bar Text to underline when Hovering*/
 }
