@@ -1,3 +1,15 @@
+/*Default Settings for website*/
+body { /*Default Style for text and background across websites*/
+  color: #1A1A1A; /*Sets body text font color to Black*/
+  text-align: center; /*Centers boby Text on webpage*/
+  margin: 0; /*Sets zero margin for body text*/
+  padding: 0px; /*Sets padding for body text to 0*/
+  background-color: #FFFEF5; /*Sets body Background to White */
+  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
+}
+
+
+/*Header Body Styling*/
 #headerbody { /*Style of Body in Header iframe*/ /**/
   background-color: #D66A28; /*Header Color to orange*/
   text-align: center; /*Header Text Centered*/
@@ -8,11 +20,15 @@
   overflow: hidden; /* Stops scrollbars from appearing inside the iframe */
   box-sizing: border-box;
 }
+
+/*Header Logo Styleing*/
 .logo img{
   display: block;
   height: 120px; 
   float: left;
 }
+
+/*Header Nav Styling*/
 header .main-nav {
   /*For fixing the headers overflow to not separate multiword links*/
   display: flex;
@@ -36,17 +52,49 @@ header .main-nav li a:hover { /*Style for when hovering over each nav link*/
   color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
   text-decoration: underline; /*Nav Bar Text to underline when Hovering*/
 }
+
+/*Footer Body Styling*/
 #footerbody { /*Style of Body in Footer iframe*/
   background-color: #B71C1C; /*Footer Background color to red*/
   color: #FFFEF5; /*Footer text color to white*/
-  text-align: center; /*Center align footer text*/
 }
+
+footer .container {
+  display: flex;
+  height: 250;
+}
+footer .logo {
+  padding-top: 20px;
+ }
+ 
+footer .main-nav li {
+  list-style-type: none;
+  display: inline-block;
+ }
+ 
+footer .main-nav li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Footer Nav Bar*/
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 4px;
+  padding: 0px 15px;
+ }
+fotter .main-nav li a:hover { /*Style for when hovering over each nav link*/
+  color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
+  text-decoration: bold; /*Nav Bar Text to underline when Hovering*/
+
+
+/*Centering for Tables throughout website*/
 .tablecenter { /*Table to be centered*/
   /*Allows Table to be in the center of webpage*/
   display: flex;
   justify-content: center;
   text-align: center;
 }
+
+/*Controls iFrame settings for header and footer accross website*/
 .headeriframe { /*Define the size of header iframe on each page*/
   border: none; /*Remove Excess border*/
   display: block; /*Sets header iframe to block element*/
@@ -58,12 +106,4 @@ header .main-nav li a:hover { /*Style for when hovering over each nav link*/
   width: 100%; /*Sets footer iframe width on each page */
   height: 75px; /*Sets footer iframe height on each page */
   border: none; /*Remove Excess border*/
-}
-body { /*Default Style for text and background across websites*/
-  color: #1A1A1A; /*Sets body text font color to Black*/
-  text-align: center; /*Centers boby Text on webpage*/
-  margin: 0; /*Sets zero margin for body text*/
-  padding: 0px; /*Sets padding for body text to 0*/
-  background-color: #FFFEF5; /*Sets body Background to White */
-  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
 }
