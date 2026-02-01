@@ -22,7 +22,7 @@ body { /*Default Style for text and background across websites*/
 }
 
 /*Header Logo Styleing*/
-.logo img{
+header .logo img{
   display: block;
   height: 120px; 
   float: left;
@@ -63,7 +63,7 @@ footer .container {
   display: flex;
   height: 250;
 }
-footer .logo {
+footer .logo img{
   padding-top: 20px;
  }
  
@@ -81,7 +81,7 @@ footer .main-nav li a {
   letter-spacing: 4px;
   padding: 0px 15px;
  }
-fotter .main-nav li a:hover { /*Style for when hovering over each nav link*/
+footer .main-nav li a:hover { /*Style for when hovering over each nav link*/
   color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
   text-decoration: bold; /*Nav Bar Text to underline when Hovering*/
 
@@ -104,6 +104,6 @@ fotter .main-nav li a:hover { /*Style for when hovering over each nav link*/
 .footeriframe { /*Define the size of the footer iframe on each page*/
   display: block; /*Sets footer iframe to block element*/
   width: 100%; /*Sets footer iframe width on each page */
-  height: 75px; /*Sets footer iframe height on each page */
+  height: 250px; /*Sets footer iframe height on each page */
   border: none; /*Remove Excess border*/
 }
