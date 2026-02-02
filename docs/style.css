@@ -2,19 +2,22 @@
 #headerbody { /*Style of Body in Header iframe*/ /**/
   background-color: #D66A28; /*Header Color to orange*/
   text-align: center; /*Header Text Centered*/
-  height: 75px;
-  position: absolute;
+  height: 4.7rem;
   width: 100%;
   height: 100vh; /* Fills the iframe height */
   overflow: hidden; /* Stops scrollbars from appearing inside the iframe */
   box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
 }
 
 /*Header Logo Styleing*/
 #headerframe .logo img{
   display: block;
-  height: 75px; 
-  float: left;
+  height: 4.7rem;; 
+  width: auto;
 }
 
 /*Header Nav Styling*/
@@ -24,15 +27,15 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: 0;
-  padding: 0px; 
+  padding: 0; 
   list-style: none;
 }
 #headerframe .main-nav li { /*Style for the Nav bar in header*/
-  padding: 0px 15px;
+  padding: 0 0.9rem;
 }  
 #headerframe .main-nav li a { /*Style for the text in each nav line*/
   font-weight: 800; /*Bold Nav Bar Text*/
-  font-size: 20px; /*Size for Nav Bar Text*/
+  font-size: 1.25rem; /*Size for Nav Bar Text*/
   text-decoration: none; /*Remove defualt Underline*/
   color: #FFFEF5; /*Set color of Nav Bar Text to White*/
   font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Header Nav Bar*/
@@ -55,12 +58,12 @@
 /*Footer Grid Container styles*/
 #footerframe {
   display: grid;
-  height: 95px;
+  height: 5.9rem;
   grid-template-columns: auto auto auto;
 }
 #footerframe .logo img{
-  height: 75px;
-  padding: 10px 20px;
+  height: 4.7rem;
+  padding: 0.6rem 1.25rem;
 }
  
 #footerframe .right-nav li, .left-nav li {
@@ -72,9 +75,9 @@
   text-decoration: none;
   font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Footer Nav Bar*/
   font-weight: 100;
-  font-size: 12px;
-  letter-spacing: 4px;
-  padding: 0px 15px;
+  font-size: 0.75rem;
+  letter-spacing: 0.25rem;
+  padding: 0 0.9rem;
  }
 #footerframe .right-nav li a:hover, .left-nav li a:hover { /*Style for when hovering over each nav link*/
   color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
@@ -87,10 +90,10 @@
   display: flex;
   justify-content: center;
   text-align: left;
-  font-size: 45px;
+  font-size: 2.8rem;
 }
 #tabletitle {
-  font-size: 65px;
+  font-size: 4rem;
 }
 
 /*Controls iFrame settings for header and footer accross website*/
@@ -98,12 +101,12 @@
   border: none; /*Remove Excess border*/
   display: block; /*Sets header iframe to block element*/
   width: 100%; /*Sets header iframe width on each page */
-  height: 75px; /*Sets header iframe height on each page */
+  height: 4.7rem; /*Sets header iframe height on each page */
 }
 .footeriframe { /*Define the size of the footer iframe on each page*/
   display: block; /*Sets footer iframe to block element*/
   width: 100%; /*Sets footer iframe width on each page */
-  height: 95px; /*Sets footer iframe height on each page */
+  height: 5.9rem; /*Sets footer iframe height on each page */
   border: none; /*Remove Excess border*/
 }
 
@@ -111,17 +114,19 @@
 .indexmain {
   display: flex;
   width: 90%;
-  margin: 20px 20px 20px 20px;
-  gap: 30px;
+  margin: 1.25rem auto;
+  gap: 1.8rem;
   text-align: center;
+  align-items: stretch;
 }
 .articlebody {
   flex: 1;
   background-color: #D3D3D3;
-  border-radius: 15px;
+  border-radius: 0.9rem;
+  padding: 1.25rem;
 }
 .articlebody section {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 .sidebar {
   flex: 1;
@@ -129,19 +134,21 @@
   flex-direction: column;
   height: 100%;
   overflow: hidden;
+  border-radius: 0.9rem;
 }
-#eventsframe {
+#eventsiframe {
   border: none; 
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 0.9rem;
   width: 100%;
   height: 100%;
-  min-height: 600px;
+  min-height: 37.5rem;
   display: block;
 }
 #mainvideo {
   width: 100%;
   height: auto;
+  display: block;
 }
 
 /*Default Settings for website*/
