@@ -117,14 +117,14 @@
   text-align: center;
 }
 .articlebody {
-  flex: 3;
+  flex: 2;
 }
 .articlebody section {
   margin-bottom: 40px;
 }
 .sidebar {
-  flex: 1;
-  display: flex
+  flex: 2;
+  display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
