@@ -16,7 +16,7 @@
 /*Header Logo Styleing*/
 #headerframe .logo img{
   display: block;
-  height: 4.7rem;; 
+  height: 4.7rem;
   width: auto;
 }
 
@@ -156,7 +156,7 @@ body { /*Default Style for text and background across websites*/
   color: #1A1A1A; /*Sets body text font color to Black*/
   text-align: center; /*Centers boby Text on webpage*/
   margin: 0; /*Sets zero margin for body text*/
-  padding: 0px; /*Sets padding for body text to 0*/
+  padding: 0; /*Sets padding for body text to 0*/
   background-color: #FFFEF5; /*Sets body Background to White */
   font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
 }
