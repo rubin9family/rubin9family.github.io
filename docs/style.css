@@ -153,6 +153,15 @@
   display: block;
 }
 
+.bodytext {
+  text-align: center;
+  width: 90%;
+  margin: 1.25rem auto;
+  background-color: #D3D3D3;
+  border-radius: 0.9rem;
+  padding: 1.25rem;
+}
+
 /*Default Settings for website*/
 body { /*Default Style for text and background across websites*/
   color: #1A1A1A; /*Sets body text font color to Black*/
