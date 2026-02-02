@@ -15,7 +15,8 @@
 
 /*Header Logo Styleing*/
 #headerframe .logo img{
-  display: block;
+  display: float;
+  float: left;
   height: 4.7rem;
   width: auto;
 }
