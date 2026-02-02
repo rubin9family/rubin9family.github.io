@@ -88,6 +88,7 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  font-size: 45px;
 }
 
 /*Controls iFrame settings for header and footer accross website*/
