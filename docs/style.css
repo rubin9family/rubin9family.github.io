@@ -90,6 +90,9 @@
   text-align: left;
   font-size: 45px;
 }
+#tabletitle {
+  font-size: 65px;
+}
 
 /*Controls iFrame settings for header and footer accross website*/
 .headeriframe { /*Define the size of header iframe on each page*/
