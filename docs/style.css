@@ -105,6 +105,35 @@
 }
 
 /*index.html section alignment and settings*/
+.indexmain {
+  display: flex;
+  width: 90%;
+  margin: 0 auto 50px auto;
+  gap: 30px;
+  text-align: left;
+}
+.articlebody {
+  flex: 3;
+}
+.articleboy section {
+  margin-bottom: 40px;
+}
+.sidebar {
+  flex: 1;
+  display: flex
+  flex-direction: colomn;
+  align-items: center;
+  padding: 20px;
+  background-color: #fcefe6;
+  border-radius: 15;
+  height: fit-content;
+}
+.sidebar .image img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
 
 /*Default Settings for website*/
 body { /*Default Style for text and background across websites*/
