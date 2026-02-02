@@ -87,7 +87,7 @@
   /*Allows Table to be in the center of webpage*/
   display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   font-size: 45px;
 }
 
