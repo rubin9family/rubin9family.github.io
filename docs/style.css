@@ -55,7 +55,7 @@
 /*Footer Grid Container styles*/
 #footerframe {
   display: grid;
-  height: 115px;
+  height: 95px;
   grid-template-columns: auto auto auto;
 }
 #footerframe .logo img{
@@ -100,7 +100,7 @@
 .footeriframe { /*Define the size of the footer iframe on each page*/
   display: block; /*Sets footer iframe to block element*/
   width: 100%; /*Sets footer iframe width on each page */
-  height: 115px; /*Sets footer iframe height on each page */
+  height: 95px; /*Sets footer iframe height on each page */
   border: none; /*Remove Excess border*/
 }
 
