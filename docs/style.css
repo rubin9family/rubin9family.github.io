@@ -11,14 +11,14 @@
 }
 
 /*Header Logo Styleing*/
-header .logo img{
+#headerframe .logo img{
   display: block;
   height: 120px; 
   float: left;
 }
 
 /*Header Nav Styling*/
-header .main-nav {
+#headerframe .main-nav {
   /*For fixing the headers overflow to not separate multiword links*/
   display: flex;
   justify-content: center;
@@ -27,17 +27,17 @@ header .main-nav {
   padding: 0px; 
   list-style: none;
 }
-header .main-nav li { /*Style for the Nav bar in header*/
+#headerframe .main-nav li { /*Style for the Nav bar in header*/
   padding: 0px 15px;
 }  
-header .main-nav li a { /*Style for the text in each nav line*/
+#headerframe .main-nav li a { /*Style for the text in each nav line*/
   font-weight: 800; /*Bold Nav Bar Text*/
   font-size: 20px; /*Size for Nav Bar Text*/
   text-decoration: none; /*Remove defualt Underline*/
   color: #FFFEF5; /*Set color of Nav Bar Text to White*/
   font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Header Nav Bar*/
 }
-header .main-nav li a:hover { /*Style for when hovering over each nav link*/
+#headerframe .main-nav li a:hover { /*Style for when hovering over each nav link*/
   color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
   text-decoration: underline; /*Nav Bar Text to underline when Hovering*/
 }
@@ -53,22 +53,22 @@ header .main-nav li a:hover { /*Style for when hovering over each nav link*/
 }
 
 /*Footer Grid Container styles*/
-footer {
+#footerframe {
   display: grid;
   height: 250px;
   grid-template-columns: auto auto auto;
 }
-footer .logo img{
+#footerframe .logo img{
   height: 75px;
   padding: 10px 20px;
 }
  
-footer .right-nav li, .left-nav li {
+#footerframe .right-nav li, .left-nav li {
   list-style-type: none;
   
  }
  
-footer .right-nav li a, .left-nav li a {
+#footerframe .right-nav li a, .left-nav li a {
   color: white;
   text-decoration: none;
   font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Footer Nav Bar*/
@@ -77,7 +77,7 @@ footer .right-nav li a, .left-nav li a {
   letter-spacing: 4px;
   padding: 0px 15px;
  }
-footer .right-nav li a:hover, .left-nav li a:hover { /*Style for when hovering over each nav link*/
+#footerframe .right-nav li a:hover, .left-nav li a:hover { /*Style for when hovering over each nav link*/
   color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
   text-decoration: none; /*Nav Bar Text to underline when Hovering*/
 }
@@ -103,6 +103,8 @@ footer .right-nav li a:hover, .left-nav li a:hover { /*Style for when hovering o
   height: 160px; /*Sets footer iframe height on each page */
   border: none; /*Remove Excess border*/
 }
+
+/*index.html section alignment and settings*/
 
 /*Default Settings for website*/
 body { /*Default Style for text and background across websites*/
