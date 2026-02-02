@@ -2,7 +2,7 @@
 #headerbody { /*Style of Body in Header iframe*/ /**/
   background-color: #D66A28; /*Header Color to orange*/
   text-align: center; /*Header Text Centered*/
-  height: 120px;
+  height: 75px;
   position: absolute;
   width: 100%;
   height: 100vh; /* Fills the iframe height */
@@ -13,7 +13,7 @@
 /*Header Logo Styleing*/
 #headerframe .logo img{
   display: block;
-  height: 120px; 
+  height: 75px; 
   float: left;
 }
 
@@ -55,7 +55,7 @@
 /*Footer Grid Container styles*/
 #footerframe {
   display: grid;
-  height: 250px;
+  height: 115px;
   grid-template-columns: auto auto auto;
 }
 #footerframe .logo img{
@@ -95,12 +95,12 @@
   border: none; /*Remove Excess border*/
   display: block; /*Sets header iframe to block element*/
   width: 100%; /*Sets header iframe width on each page */
-  height: 120px; /*Sets header iframe height on each page */
+  height: 75; /*Sets header iframe height on each page */
 }
 .footeriframe { /*Define the size of the footer iframe on each page*/
   display: block; /*Sets footer iframe to block element*/
   width: 100%; /*Sets footer iframe width on each page */
-  height: 160px; /*Sets footer iframe height on each page */
+  height: 115px; /*Sets footer iframe height on each page */
   border: none; /*Remove Excess border*/
 }
 
