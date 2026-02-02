@@ -132,7 +132,13 @@
   border-radius: 15px;
   height: fit-content;
 }
-.sidebar .image img {
+#eventsframe {
+  border: solid 1px #777; 
+  overflow: hidden; 
+  border: none;
+  width: auto; 
+  height: auto;
+  
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
