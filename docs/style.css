@@ -1,3 +1,7 @@
+/*Force size calculations to match properly*/
+* {
+  box-sizing: border-box;
+}
 /*Header Body Styling*/
 #headerbody { /*Style of Body in Header iframe*/ /**/
   background-color: #D66A28; /*Header Color to orange*/
@@ -190,7 +194,7 @@ body { /*Default Style for text and background across websites*/
   }
   .articlebody {
     flex: auto;
-    width: 95%;
+    width: 100%;
   }
   .sidebar {
     flex: auto;
