@@ -26,7 +26,8 @@
 }
 
 /*Header Nav Styling*/
-#headernavdiv {
+#headerframe .headernavdiv { /*div that conains header main-nav*/
+  align-items: center;
   justify-content: center;
 }
 #headerframe .main-nav {
