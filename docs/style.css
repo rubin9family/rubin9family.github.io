@@ -191,6 +191,7 @@ body { /*Default Style for text and background across websites*/
   }
   .articlebody, .sidebar {
     flex: auto;
+    width: 100%;
   }
   #eventsiframe {
     min-width: auto;
