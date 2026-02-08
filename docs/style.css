@@ -91,13 +91,14 @@
   display: flex;
   justify-content: center;
   text-align: left;
-  font-size: clamp(10px, 0.5vw, 36px);
+  font-size: 1vw;
 }
 #tableshrink {
   table-layout: fixed;
 }
 #tabletitle {
-  font-size: clamp(16px, 0.5vw, 48px);
+  font-size: 1.5vw;
+  font-weight: 800;
 }
 
 
