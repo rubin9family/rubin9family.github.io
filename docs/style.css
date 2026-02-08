@@ -127,7 +127,7 @@
 /*index.html section alignment and settings*/
 .indexmain {
   display: flex;
-  width: 90%;
+  width: 95%;
   margin: 1.25rem auto;
   gap: 1.8rem;
   text-align: center;
@@ -175,7 +175,7 @@
 /*Default Settings for website main text on certain pages*/
 .bodytext {
   text-align: center;
-  width: 90%;
+  width: 95%;
   margin: 1.25rem auto;
   background-color: #D3D3D3;
   border-radius: 0.9rem;
@@ -188,7 +188,6 @@ body { /*Default Style for text and background across websites*/
   text-align: center; /*Centers boby Text on webpage*/
   margin: 0; /*Sets zero margin for body text*/
   padding: 0; /*Sets padding for body text to 0*/
-  width: 95%;
   background-color: #FFFEF5; /*Sets body Background to White */
   font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
 }
