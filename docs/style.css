@@ -91,16 +91,15 @@
   display: flex;
   justify-content: center;
   text-align: left;
-  font-size: 2.8rem;
+  font-size: clamp(1rem, 1.5vw, 2.8rem);
 }
 #tableshrink {
-  width: 50%
-  table-layout: auto;
-  border-collapse: collapse;
+  table-layout: fixed;
 }
 #tabletitle {
-  font-size: 4rem;
+  font-size: clamp(2rem, 1.5vw, 4rem);
 }
+
 
 /*Controls iFrame settings for header and footer accross website*/
 .headeriframe { /*Define the size of header iframe on each page*/
