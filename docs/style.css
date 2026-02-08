@@ -187,9 +187,9 @@ body { /*Default Style for text and background across websites*/
   .indexmain {
     flex-direction: column;
     align-items: center;
+    width: 95%;
   }
   .articlebody, .sidebar {
-    width: 95%;
     flex: auto;
   }
   #eventsiframe {
