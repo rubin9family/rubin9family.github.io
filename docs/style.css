@@ -216,6 +216,7 @@ body { /*Default Style for text and background across websites*/
   #footerframe {
     grid-template-columns: auto auto;
     align-items: center;
+    align-items: center;
     height: 100%;
   }
   #footerframe .logo {
