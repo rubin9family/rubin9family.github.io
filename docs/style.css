@@ -182,7 +182,7 @@ body { /*Default Style for text and background across websites*/
     align-items: center;
   }
   .articlebody, .sidebar {
-    width: 95%
+    width: 95%;
     flex: auto;
   }
   #eventsiframe {
