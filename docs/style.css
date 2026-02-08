@@ -217,11 +217,11 @@ body { /*Default Style for text and background across websites*/
     height: 8rem;
   }
   #footerframe {
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     height: 100%;
   }
-  #footerframe .logo img{{
+  #footerframe .logo img{
     display: none;
   }
 }
