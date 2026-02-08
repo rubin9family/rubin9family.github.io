@@ -82,10 +82,12 @@
   display: grid;
   height: 5.9rem;
   grid-template-columns: auto auto auto;
+  align-content: center;
 }
-#footerframe .logo img{
+#footerframe .box1 img{
   height: 4.7rem;
-  padding: 0.6rem 1.25rem;
+  width: auto;
+  padding: 0.6rem auto;
 }
  
 #footerframe .right-nav li, .left-nav li {
@@ -230,7 +232,7 @@ body { /*Default Style for text and background across websites*/
   
   /*Footer Adjust for mobile*/
   #footerframe {
-    grid-template-columns: auto auto;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     height: 100%;
   }
