@@ -27,9 +27,6 @@
 /*Header Logo Styleing*/
 #headerframe .logo img{
   position: relative;
-  left: 0;
-  top: 0;
-  bottom: 0;
   height: 100%;
   width: auto;
   display: block;
@@ -88,7 +85,7 @@
 #footerframe .box1 img{
   height: 4.7rem;
   width: auto;
-  padding: 0.6rem auto;
+  padding-left: 0.6rem;
 }
  
 #footerframe .right-nav li, .left-nav li {
