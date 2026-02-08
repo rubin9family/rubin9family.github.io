@@ -97,7 +97,7 @@
   table-layout: fixed;
 }
 #tabletitle {
-  font-size: clamp(16px, 40vw, 48px);
+  font-size: clamp(16px, 100vw, 48px);
 }
 
 
