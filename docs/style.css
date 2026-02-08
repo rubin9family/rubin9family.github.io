@@ -93,6 +93,11 @@
   text-align: left;
   font-size: 2.8rem;
 }
+#tableshrink {
+  width: 50%
+  table-layout: auto;
+  border-collapse: collapse;
+}
 #tabletitle {
   font-size: 4rem;
 }
