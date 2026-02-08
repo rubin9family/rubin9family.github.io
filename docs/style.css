@@ -176,3 +176,17 @@ body { /*Default Style for text and background across websites*/
   background-color: #FFFEF5; /*Sets body Background to White */
   font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
 }
+@media screen and (max-width: 768px) {
+  .indexmain {
+    flex-direction: column;
+    align-items: center;
+  }
+  .articlebody, .sidebar {
+    width: 95%
+    flex: auto;
+  }
+  #eventsiframe {
+    min-width: auto;
+    width: 100%;
+  }
+}
