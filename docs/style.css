@@ -29,7 +29,9 @@
 #headerframe .logo img{
   position: absolute;
   left: 0;
-  height: 4.7rem;
+  top: 0;
+  bottom: 0;
+  height: 100%;
   width: auto;
   display: block;
 }
