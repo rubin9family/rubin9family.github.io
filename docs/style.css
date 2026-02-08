@@ -213,9 +213,6 @@ body { /*Default Style for text and background across websites*/
   }
   
   /*Footer Adjust for mobile*/
-  .footeriframe {
-    height: 8rem;
-  }
   #footerframe {
     grid-template-columns: auto auto;
     align-items: center;
