@@ -144,6 +144,7 @@
   overflow: hidden;
   border-radius: 0.9rem;
   padding: 1.25rem;
+  background-color: #D3D3D3;
 }
 #eventsiframe {
   border: none; 
