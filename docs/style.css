@@ -16,17 +16,28 @@
   align-items: center; 
   justify-content: center;
 }
+#headerframe {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 
 /*Header Logo Styleing*/
 #headerframe .logo img{
-  display: float;
-  float: left;
+  position: absolute;
+  left: 0;
   height: 4.7rem;
   width: auto;
+  display: block;
 }
 
 /*Header Nav Styling*/
 #headerframe .headernavdiv { /*div that conains header main-nav*/
+  text-align: center;
+  width: 100%;
   align-items: center;
   justify-content: center;
 }
@@ -218,7 +229,6 @@ body { /*Default Style for text and background across websites*/
   /*Footer Adjust for mobile*/
   #footerframe {
     grid-template-columns: auto auto;
-    align-items: center;
     align-items: center;
     height: 100%;
   }
