@@ -26,6 +26,9 @@
 }
 
 /*Header Nav Styling*/
+#headernavdiv {
+  justify-content: center;
+}
 #headerframe .main-nav {
   /*For fixing the headers overflow to not separate multiword links*/
   display: flex;
@@ -219,7 +222,7 @@ body { /*Default Style for text and background across websites*/
     align-items: center;
     height: 100%;
   }
-  #footerframe .logo {
+  #footerframe .box1 {
     display: none;
   }
 }
