@@ -22,6 +22,8 @@
   align-items: center;
   gap: 1.5rem;
   margin-bottom: 2rem;
+  background-color: #D3D3D3;
+  border-radius: 0.9rem;
 }
 .notinline p {
   margin: 0;
@@ -61,7 +63,9 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0,0,0,0.05);
 }
-
+.contactssubmaincustom {
+  background-color: #FFFEF5;
+}
 
 
 /*For Mobile*/
