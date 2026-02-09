@@ -195,6 +195,36 @@
   padding: 1.25rem;
 }
 
+/*Contact Button Formating*/
+.inline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.inline h2 {
+  margin: 0;
+}
+.inline button{
+  background-color: #D66A28;
+  color: #FFFEF5;
+  border: 2px solid #B71C1C;
+  border-radius: 0.9rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.inline button:hover{
+  background-color: #B71C1C;
+  border: 2px solid #D66A28;
+}
+
 /*Default Settings for website*/
 body { /*Default Style for text and background across websites*/
   color: #1A1A1A; /*Sets body text font color to Black*/
@@ -204,6 +234,8 @@ body { /*Default Style for text and background across websites*/
   background-color: #FFFEF5; /*Sets body Background to White */
   font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
 }
+
+/*For Mobile*/
 @media screen and (max-width: 768px) {
   /*Idex.html page for mobile screens*/
   .indexmain {
