@@ -182,7 +182,4 @@ body { /*Default Style for text and background across websites*/
   .headeriframe {
     height: 6rem;
   }
-  #headerframe .logo img{
-    height: 6rem;
-  }
-}  
+}
