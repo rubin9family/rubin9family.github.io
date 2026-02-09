@@ -43,7 +43,7 @@
   background-color: #B71C1C;
   border: 2px solid #D66A28;
 }
-#contactgmapsquarter {
+.contactgmapsquarter {
   border: none; 
   overflow: hidden;
   border-radius: 0.9rem;
