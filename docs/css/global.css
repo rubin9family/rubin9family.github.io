@@ -124,7 +124,7 @@ body { /*Default Style for text and background across websites*/
   margin-bottom: 2.5rem;
   margin-right: auto;
   margin-left: auto;
-  width: 95%
+  width: 95%;
   max-width: 850px;
   height: 1000px;
 }
@@ -154,7 +154,7 @@ body { /*Default Style for text and background across websites*/
 
   /*pdf full page default for mobile*/
   .pdffullpage {
-    width: 97%
+    width: 97%;
     max-width: none;
     height: 1000px;
   }
