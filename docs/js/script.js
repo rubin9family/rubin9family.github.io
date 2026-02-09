@@ -10,3 +10,7 @@ function copyemail() {
  navigator.clipboard.writeText("info@wormwoodhillscomunitycenter.com");
  alert("Copied Email to clipboard");
 }
+function copywhatsapp() {
+ navigator.clipboard.writeText("12012012012");
+ alert("Copied WhatsApp Number to clipboard");
+}
