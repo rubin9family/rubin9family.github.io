@@ -1,0 +1,62 @@
+/*Header Body Styling*/
+#headerbody { /*Style of Body in Header iframe*/ /**/
+  background-color: #D66A28; /*Header Color to orange*/
+  text-align: center; /*Header Text Centered*/
+  height: 4.7rem;
+  width: 100%;
+  height: 100vh; /* Fills the iframe height */
+  overflow: hidden; /* Stops scrollbars from appearing inside the iframe */
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+#headerframe {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+/*Header Logo Styleing*/
+#headerframe .logo img{
+  position: relative;
+  height: 4.7rem;
+  width: auto;
+  display: block;
+  margin-right: 1rem;
+}
+
+/*Header Nav Styling*/
+#headerframe .headernavdiv { /*div that conains header main-nav*/
+  display: flex;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#headerframe .main-nav {
+  /*For fixing the headers overflow to not separate multiword links*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0; 
+  list-style: none;
+}
+#headerframe .main-nav li { /*Style for the Nav bar in header*/
+  padding: 0 0.9rem;
+}  
+#headerframe .main-nav li a { /*Style for the text in each nav line*/
+  font-weight: 800; /*Bold Nav Bar Text*/
+  font-size: 1.25rem; /*Size for Nav Bar Text*/
+  text-decoration: none; /*Remove defualt Underline*/
+  color: #FFFEF5; /*Set color of Nav Bar Text to White*/
+  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Header Nav Bar*/
+}
+#headerframe .main-nav li a:hover { /*Style for when hovering over each nav link*/
+  color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
+  text-decoration: underline; /*Nav Bar Text to underline when Hovering*/
+}
