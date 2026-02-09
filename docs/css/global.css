@@ -84,8 +84,8 @@ body { /*Default Style for text and background across websites*/
   margin-bottom: 2.5rem;
 }
 
-/*Gcalendar iFrame Defaults*/
-.gcalendariframe {
+/*Gcalendar iFrame half screen Defaults*/
+.gcalendariframehalf {
   border: none; 
   overflow: hidden;
   border-radius: 0.9rem;
@@ -93,12 +93,24 @@ body { /*Default Style for text and background across websites*/
   flex-grow: 1;
   height: auto;
   min-height: 400px;
-  /*min-width: 25.5rem;*/
   display: block;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0,0,0,0.05);
 }
-
+/*Gcalendar iFrame full screen Defaults*/
+.gcalendariframefull {
+  border: none; 
+  overflow: hidden;
+  border-radius: 0.9rem;
+  width: 95%;
+  flex-grow: 1;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 800px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0,0,0,0.05);
+}
 /*For Mobile Screens*/
 @media screen and (max-width: 768px) {
   /*Dual Screen defaults for Mobile*/
@@ -114,11 +126,14 @@ body { /*Default Style for text and background across websites*/
     flex: auto;
     width: 100%;
   }
-  .gcalendariframe {
+  .gcalendariframehalf {
     min-width: auto;
     width: 100%;
   }
-  
+  .gcalendariframefull {
+    min-width: auto;
+    width: 95%;
+  }
   /*Header adjust for mobile*/
   .headeriframe {
     height: 6rem;
