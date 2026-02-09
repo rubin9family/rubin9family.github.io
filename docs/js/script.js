@@ -6,3 +6,7 @@ function copytel() {
  navigator.clipboard.writeText("2012012012");
  alert("Copied Telephone Number to clipboard");
 }
+function copyemail() {
+ navigator.clipboard.writeText("info@wormwoodhillscomunitycenter.com");
+ alert("Copied Email to clipboard");
+}
