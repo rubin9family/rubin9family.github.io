@@ -62,9 +62,12 @@
   background-color: #FFFEF5;
 }
 
+.enlargebutton {
+  font-size: clamp(16px, 2.5vw, 30px);
+}
 
 /*For Mobile*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   /*Idex.html page for mobile screens*/
   .indexsidebar {
     flex: auto;
