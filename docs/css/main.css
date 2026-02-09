@@ -17,6 +17,7 @@
 .inline {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;  
   justify-content: center;
   align-items: center;
   gap: 1.5rem;
@@ -26,6 +27,11 @@
   margin: 0;
   font-size: 2rem;
   font-weight: bold;
+}
+.inline a {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: normal;
 }
 .inline button{
   background-color: #D66A28;
