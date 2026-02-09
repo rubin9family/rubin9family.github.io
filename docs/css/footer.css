@@ -40,7 +40,7 @@
 }
 
 /*For Mobile*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     /*Footer Adjust for mobile*/
   #footerframe {
     grid-template-columns: 1fr 1fr;
