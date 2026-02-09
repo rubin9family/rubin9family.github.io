@@ -60,3 +60,10 @@
   color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
   text-decoration: underline; /*Nav Bar Text to underline when Hovering*/
 }
+
+/*For Mobile*/
+@media screen and (max-width: 768px) {
+    #headerframe .logo img{
+    height: 6rem;
+  }
+}
