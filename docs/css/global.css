@@ -112,6 +112,11 @@ body { /*Default Style for text and background across websites*/
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0,0,0,0.05);
 }
+
+/*Default for spacers*/
+.spacer {
+  margin-top: 3rem;
+}
 /*For Mobile Screens*/
 @media screen and (max-width: 768px) {
   /*Dual Screen defaults for Mobile*/
