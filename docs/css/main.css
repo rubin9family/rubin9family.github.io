@@ -35,6 +35,8 @@
   margin: 0;
   font-size: clamp(14px, 2.5vw, 30px); ;
   font-weight: normal;
+  display: flex;
+  flex-wrap: wrap;
 }
 .notinline button{
   background-color: #D66A28;
