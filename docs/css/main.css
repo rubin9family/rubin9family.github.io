@@ -16,7 +16,6 @@
 /*Contacts Alignment settings &  Button Formating*/
 .inline {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
@@ -25,15 +24,15 @@
 }
 .inline p {
   margin: 0;
-  font-size: 1rem;
-  font-weight: 800;
+  font-size: 2rem;
+  font-weight: bold;
 }
 .inline button{
   background-color: #D66A28;
   color: #FFFEF5;
   border: 2px solid #B71C1C;
   border-radius: 0.9rem;
-  padding: 1rem;
+  padding: 0.5rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-size: 1rem;
