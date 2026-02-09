@@ -66,6 +66,6 @@
 /*For Mobile*/
 @media screen and (max-width: 800px) {
     #headerframe .logo img{
-    height: 8rem;
+    height: 4.7rem;
   }
 }
