@@ -73,14 +73,6 @@
     flex: auto;
     width: 100%;
   }
-  
-  /*Header adjust for mobile*/
-  .headeriframe {
-    height: 6rem;
-  }
-  #headerframe .logo img{
-    height: 6rem;
-  }
   .notinline {
     margin-right: 0;
     margin-left: 0;
