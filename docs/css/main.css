@@ -35,7 +35,7 @@
 }
 .notinline a {
   margin: 0;
-  font-size: clamp(14px, 2.5vw, 30px); ;
+  font-size: clamp(14px, 2vw, 30px); ;
   font-weight: normal;
   display: flex;
   flex-wrap: wrap;
