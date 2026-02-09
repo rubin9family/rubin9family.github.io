@@ -128,6 +128,25 @@ body { /*Default Style for text and background across websites*/
   max-width: 850px;
   height: 1000px;
 }
+
+/*Default for JS buttons*/
+.jsbutton {
+  background-color: #D66A28;
+  color: #FFFEF5;
+  border: 2px solid #B71C1C;
+  border-radius: 0.9rem;
+  padding: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.jsbutton:hover {
+  background-color: #B71C1C;
+  border: 2px solid #D66A28;
+}
+
 /*For Mobile Screens*/
 @media screen and (max-width: 768px) {
   /*Dual Screen defaults for Mobile*/
