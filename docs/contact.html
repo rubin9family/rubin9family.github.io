@@ -13,11 +13,17 @@
     <h1>Contact Us</h1> <!--Page Title-->
 
     <div class="bodytext">
-      <h2>Our address is <b>55 Wormwood Hill Road, Wormwood Hills NJ, 00411</b></h2> <!--Adress info-->
-      <h2>Our Phone Number is:</a></h2> <button onclick="copytel()">201-201-2012</button> <!--Tel Info-->
-        <!--href="tel:2012012012"-->
+      <div class="inline">
+        <h2>Our address is <b>55 Wormwood Hill Road, Wormwood Hills NJ, 00411</b></h2> <!--Adress info-->
+        <button onclick="copyadd()">Copy Our Address</button> <!--Copy Address Button-->
+      </div>
+      <div class="inline">
+      <h2>Our Phone Number is: <a href="tel:2012012012">201-201-2012</a></h2>  <!--Tel Info-->
+      <button onclick="copytel()">Copy Our Telephone Number</button> <!--Copy tel Button-->
+      </div>   
     </div>
-    <iframe class="footeriframe" src="footer.html"></iframe> <!--Foot iFrame-->
+    
+    <iframe class="footeriframe" src="footer.html"></iframe> <!--Footer iFrame-->
     
  </body> <!--Where the page content ends-->
 </html> <!--Where html tag ends-->
