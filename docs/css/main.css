@@ -14,7 +14,7 @@
   display: block;
 }
 /*Contacts Alignment settings &  Button Formating*/
-.inline {
+.notinline {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;  
@@ -23,17 +23,17 @@
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
-.inline p {
+.notinline p {
   margin: 0;
   font-size: 2rem;
   font-weight: bold;
 }
-.inline a {
+.notinline a {
   margin: 0;
   font-size: 2rem;
   font-weight: normal;
 }
-.inline button{
+.notinline button{
   background-color: #D66A28;
   color: #FFFEF5;
   border: 2px solid #B71C1C;
@@ -45,11 +45,11 @@
   text-decoration: none;
   cursor: pointer;
 }
-.inline button:hover{
+.notinline button:hover{
   background-color: #B71C1C;
   border: 2px solid #D66A28;
 }
-.contactgmapsquarter {
+#contactgmapsquarter {
   border: none; 
   overflow: hidden;
   border-radius: 0.9rem;
