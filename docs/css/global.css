@@ -30,7 +30,7 @@ body { /*Default Style for text and background across websites*/
   text-align: left;
   font-size: clamp(16px, 2.5vw, 36px);
 }
-#tableshrink {
+.tableshrink {
   table-layout: fixed;
 }
 #tabletitle {
@@ -64,4 +64,7 @@ body { /*Default Style for text and background across websites*/
   background-color: #D3D3D3;
   border-radius: 0.9rem;
   padding: 1.25rem;
+}
+.defaultsidebar section {
+  margin-bottom: 2.5rem;
 }
