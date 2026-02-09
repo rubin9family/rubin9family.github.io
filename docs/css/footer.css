@@ -1,0 +1,53 @@
+/*Footer Body Styling*/
+#footerbody { /*Style of Body in Footer iframe*/
+  background-color: #B71C1C; /*Footer Background color to red*/
+  color: #FFFEF5; /*Footer text color to white*/
+  width: 100%;
+  height: 100vh; /* Fills the iframe height */
+  overflow: hidden; /* Stops scrollbars from appearing inside the iframe */
+  box-sizing: border-box;
+}
+
+/*Footer Grid Container styles*/
+#footerframe {
+  display: grid;
+  height: 5.9rem;
+  grid-template-columns: auto auto auto;
+  align-content: center;
+}
+#footerframe .box1 img{
+  height: 4.7rem;
+  width: auto;
+  padding-left: 0.6rem;
+}
+ 
+#footerframe .right-nav li, .left-nav li {
+  list-style-type: none;
+ }
+ 
+#footerframe .right-nav li a, .left-nav li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Footer Nav Bar*/
+  font-weight: 100;
+  font-size: 0.75rem;
+  letter-spacing: 0.25rem;
+  padding: 0 0.9rem;
+ }
+#footerframe .right-nav li a:hover, .left-nav li a:hover { /*Style for when hovering over each nav link*/
+  color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
+  text-decoration: none; /*Nav Bar Text to underline when Hovering*/
+}
+
+/*For Mobile*/
+@media screen and (max-width: 768px) {
+    /*Footer Adjust for mobile*/
+  #footerframe {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 100%;
+  }
+  #footerframe .box1 {
+    display: none;
+  }
+}
