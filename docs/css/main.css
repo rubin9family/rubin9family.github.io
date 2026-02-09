@@ -43,6 +43,18 @@
   background-color: #B71C1C;
   border: 2px solid #D66A28;
 }
+#contactgmapsquarter {
+  border: none; 
+  overflow: hidden;
+  border-radius: 0.9rem;
+  width: 100%;
+  flex-grow: 1;
+  height: auto;
+  min-height: 400px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0,0,0,0.05);
+}
 
 
 
