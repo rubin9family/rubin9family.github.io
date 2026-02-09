@@ -32,7 +32,7 @@
 }
 .notinline a {
   margin: 0;
-  font-size: 2rem;
+  font-size: clamp(14px, 2.5vw, 30px); ;
   font-weight: normal;
 }
 .notinline button{
