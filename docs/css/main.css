@@ -8,6 +8,7 @@
   padding: 0;
   background-color: #D3D3D3;
 }
+/*index.html video settings*/
 #mainvideo {
   width: 100%;
   height: auto;
@@ -38,22 +39,8 @@
   display: flex;
   flex-wrap: wrap;
 }
-.notinline button{
-  background-color: #D66A28;
-  color: #FFFEF5;
-  border: 2px solid #B71C1C;
-  border-radius: 0.9rem;
-  padding: 0.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  font-size: 1rem;
-  text-decoration: none;
-  cursor: pointer;
-}
-.notinline button:hover{
-  background-color: #B71C1C;
-  border: 2px solid #D66A28;
-}
+
+/*Gmaps iframe in contacts*/
 #contactgmapsquarter {
   border: none; 
   overflow: hidden;
@@ -66,6 +53,8 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0,0,0,0.05);
 }
+
+/*override default background color in contacts*/
 .contactssubmaincustom {
   background-color: #FFFEF5;
 }
