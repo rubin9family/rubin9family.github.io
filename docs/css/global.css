@@ -117,6 +117,17 @@ body { /*Default Style for text and background across websites*/
 .spacer {
   margin-top: 3rem;
 }
+
+/*Embeded PDF Default*/
+.pdffullpage {
+  display: block;
+  margin-bottom: 2.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%
+  max-width: 850px;
+  height: 1000px;
+}
 /*For Mobile Screens*/
 @media screen and (max-width: 768px) {
   /*Dual Screen defaults for Mobile*/
@@ -140,6 +151,14 @@ body { /*Default Style for text and background across websites*/
     min-width: auto;
     width: 95%;
   }
+
+  /*pdf full page default for mobile*/
+  .pdffullpage {
+    width: 97%
+    max-width: none;
+    height: 1000px;
+  }
+  
   /*Header adjust for mobile*/
   .headeriframe {
     height: 6rem;
