@@ -1,17 +1,3 @@
-/*Controls iFrame settings for header and footer accross website*/
-.headeriframe { /*Define the size of header iframe on each page*/
-  border: none; /*Remove Excess border*/
-  display: block; /*Sets header iframe to block element*/
-  width: 100%; /*Sets header iframe width on each page */
-  height: 4.7rem; /*Sets header iframe height on each page */
-}
-.footeriframe { /*Define the size of the footer iframe on each page*/
-  display: block; /*Sets footer iframe to block element*/
-  width: 100%; /*Sets footer iframe width on each page */
-  height: 5.9rem; /*Sets footer iframe height on each page */
-  border: none; /*Remove Excess border*/
-}
-
 /*index.html section alignment and settings*/
 .indexsidebar {
   flex: 1;
@@ -21,20 +7,6 @@
   border-radius: 0.9rem;
   padding: 0;
   background-color: #D3D3D3;
-}
-.eventsiframe {
-  border: none; 
-  overflow: hidden;
-  border-radius: 0.9rem;
-  width: 100%;
-  flex-grow: 1;
-  height: auto;
-  min-height: 400px;
-  /*min-width: 25.5rem;*/
-  display: block;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  border: 1px solid rgba(0,0,0,0.05);
-  
 }
 #mainvideo {
   width: 100%;
@@ -78,20 +50,8 @@
 /*For Mobile*/
 @media screen and (max-width: 768px) {
   /*Idex.html page for mobile screens*/
-  .indexmain {
-    flex-direction: column;
-    align-items: center;
-  }
-  .articlebody {
+  .indexsidebar {
     flex: auto;
-    width: 100%;
-  }
-  .sidebar {
-    flex: auto;
-    width: 100%;
-  }
-  #eventsiframe {
-    min-width: auto;
     width: 100%;
   }
   
