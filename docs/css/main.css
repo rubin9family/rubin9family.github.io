@@ -34,8 +34,8 @@
   font-weight: bold;
 }
 .notinline a {
-  margin: 0;
-  font-size: clamp(14px, 2vw, 30px); ;
+  margin: auto;
+  font-size: clamp(10px, 2vw, 25px); ;
   font-weight: normal;
   display: flex;
   flex-wrap: wrap;
