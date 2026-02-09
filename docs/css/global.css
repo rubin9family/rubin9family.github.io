@@ -12,8 +12,17 @@ body { /*Default Style for text and background across websites*/
   background-color: #FFFEF5; /*Sets body Background to White */
   font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
 }
+/*Default Settings for website main text on certain pages*/
+.bodytext {
+  text-align: center;
+  width: 95%;
+  margin: 1.25rem auto;
+  background-color: #D3D3D3;
+  border-radius: 0.9rem;
+  padding: 1.25rem;
+}
 
-/*Centering for Tables throughout website*/
+/*Default Centering for Tables throughout website*/
 .tablecenter { /*Table to be centered*/
   /*Allows Table to be in the center of webpage*/
   display: flex;
