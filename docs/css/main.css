@@ -71,8 +71,10 @@
   gap: 1.5rem;
   margin-bottom: 2rem;
 }
-.inline h2 {
+.inline p {
   margin: 0;
+  font-size: 1rem;
+  font-weight: 800;
 }
 .inline button{
   background-color: #D66A28;
