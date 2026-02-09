@@ -67,6 +67,6 @@
 @media screen and (max-width: 800px) {
     #headerframe .logo img{
     height: 8rem;
-    max-width: 30%
+    max-width: 30%;
   }
 }
