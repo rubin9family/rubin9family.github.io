@@ -14,7 +14,6 @@ body { /*Default Style for text and background across websites*/
   padding: 0; /*Sets padding for body text to 0*/
   background-color: #FFFEF5; /*Sets body Background to White */
   font-family: 'Atma', 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
-  display: swap;
 }
 /*Default Settings for website main text on certain pages*/
 .bodytext {
@@ -147,7 +146,6 @@ body { /*Default Style for text and background across websites*/
   text-decoration: none;
   cursor: pointer;
   font-family: 'Atma', 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
-  display: swap;
 }
 .jsbutton:hover {
   background-color: #B71C1C;
