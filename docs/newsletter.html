@@ -11,6 +11,23 @@
     <iframe class="headeriframe" src="header.html"></iframe> <!--Header Iframe-->
 
     <h1>Newsletter</h1> <!--Page Title-->
+
+    <form action"/email-signup-form-page" method="post">
+      <p>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" />
+      </p>
+      
+      <p>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_email" />
+      </p>
+      <p>
+        <label for="msg">Message:</label>
+        <textarea id="msg" name="user_message"></textarea>
+      </p>
+    
+    </form>
     
     <embed class="pdffullpage" src="pdf/current/pdf.pdf" type="application/pdf"> <!--Embeded PDF-->
     
