@@ -183,6 +183,8 @@ body { /*Default Style for text and background across websites*/
   margin: 0.5rem auto; /* Centers it and adds space */
   border-radius: 0.9rem;
   padding: 0.5rem;
+  border: 4px solid #D66A28;
+  color: #B71C1C;
 }
 .g-recaptcha {
   margin: 1rem auto;
