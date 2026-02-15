@@ -25,7 +25,8 @@ body { /*Default Style for text and background across websites*/
 }
 .bodytext p {
   font-size: 1.25rem;
-  width: 80%;
+  width: 85%;
+  margin: 1.25rem auto;
 }
 /*Default for header/Footer iFrame*/
 /*Controls iFrame settings for header and footer accross website*/
