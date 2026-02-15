@@ -1,3 +1,6 @@
+/*Import Altama font with weight 300, 400, 500, 600, 700*/
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
 /*Force size calculations to match properly*/
 * {
   box-sizing: border-box;
@@ -10,7 +13,8 @@ body { /*Default Style for text and background across websites*/
   margin: 0; /*Sets zero margin for body text*/
   padding: 0; /*Sets padding for body text to 0*/
   background-color: #FFFEF5; /*Sets body Background to White */
-  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
+  font-family: 'Atma', 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
+  display: swap;
 }
 /*Default Settings for website main text on certain pages*/
 .bodytext {
@@ -146,6 +150,21 @@ body { /*Default Style for text and background across websites*/
 .jsbutton:hover {
   background-color: #B71C1C;
   border: 2px solid #D66A28;
+}
+/*Default settings for Form*/
+.defaultform {
+  text-align: center;
+  width: 95%;
+  max-width: 600px;
+  height: 400px;
+  margin: 1.25rem auto;
+  background-color: #D3D3D3;
+  border-radius: 0.9rem;
+  padding: 1.25rem;
+}
+/*Center Div Inside Forms*/
+.defaultform p {
+  color: #1A1A1A;
 }
 
 /*For Mobile Screens*/
