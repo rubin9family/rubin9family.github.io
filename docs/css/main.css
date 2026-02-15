@@ -69,6 +69,11 @@
 .overridebackground {
   background: linear-gradient(to right, #D3D3D3, #F0F0F0, #D3D3D3);
 }
+.banner {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /*For Mobile*/
 @media screen and (max-width: 800px) {
   /*Idex.html page for mobile screens*/
