@@ -21,7 +21,6 @@ body { /*Default Style for text and background across websites*/
   width: 95%;
   margin: 1.25rem auto;
   background-color: #D3D3D3;
-  background: linear-gradient(to right, #D3D3D3, #F0F0F0, #D3D3D3);
   border-radius: 0.9rem;
   padding: 1.25rem;
 }
