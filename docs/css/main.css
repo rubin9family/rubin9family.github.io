@@ -26,7 +26,7 @@
   background-color: #D3D3D3;
   background: linear-gradient(to right, #D3D3D3, #F0F0F0, #D3D3D3);
   border-radius: 0.9rem;
-  margin: 2rem;
+  margin: 1.5rem auto;
   padding: 1rem;
 }
 .notinline p {
@@ -61,6 +61,7 @@
 /*override default background color in contacts*/
 .contactssubmaincustom {
   background-color: #FFFEF5;
+  margin: 0.5rem auto;
 }
 
 .enlargebutton {
