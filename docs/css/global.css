@@ -159,7 +159,7 @@ body { /*Default Style for text and background across websites*/
   align-items: center;
   width: 95%;
   max-width: 600px;
-  height: 400px;
+  min-height: 200px;
   margin: 1.25rem auto;
   background-color: #D3D3D3;
   border-radius: 0.9rem;
@@ -168,6 +168,20 @@ body { /*Default Style for text and background across websites*/
 /*Center Div Inside Forms*/
 .defaultform p {
   color: #1A1A1A;
+}
+.defaultform h2 {
+  color: #1A1A1A;
+  font-weight: bold;
+}
+.defaultform input {
+  display: block;
+  width: 90%; /* Or whatever width looks good */
+  margin: 0.5rem auto; /* Centers it and adds space */
+  padding: 0.5rem;
+}
+.g-recaptcha {
+  margin: 1rem auto;
+  padding: 1.25rem
 }
 
 /*For Mobile Screens*/
