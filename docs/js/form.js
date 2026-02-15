@@ -1,4 +1,4 @@
-fdocument.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
   
   const form = document.getElementById('email-list');
 
