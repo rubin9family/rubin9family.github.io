@@ -5,14 +5,14 @@
 * {
   box-sizing: border-box;
 }
-/*3D Effects*/
+/*3D Effects
 div, section, article, input, button, textarea, .headeriframe, .footeriframe {
   box-sizing: border-box;
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 2px 3px rgba(0, 0, 0, 0.1);
   border: 1px solid #ccc;
   border-radius: 5px;
   background: linear-gradient(to bottom, #f9f9f9, #e0e0e0);
-}
+}*/
 /*Default Settings for website*/
 body { /*Default Style for text and background across websites*/
   color: #1A1A1A; /*Sets body text font color to Black*/
@@ -42,12 +42,18 @@ body { /*Default Style for text and background across websites*/
   display: block; /*Sets header iframe to block element*/
   width: 100%; /*Sets header iframe width on each page */
   height: 4.7rem; /*Sets header iframe height on each page */
+  box-sizing: border-box;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 2px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
 }
 .footeriframe { /*Define the size of the footer iframe on each page*/
   display: block; /*Sets footer iframe to block element*/
   width: 100%; /*Sets footer iframe width on each page */
   height: 5.9rem; /*Sets footer iframe height on each page */
   border: none; /*Remove Excess border*/
+  box-sizing: border-box;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 2px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
 }
 
 
