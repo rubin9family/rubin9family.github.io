@@ -24,6 +24,9 @@ body { /*Default Style for text and background across websites*/
   border-radius: 0.9rem;
   padding: 1.25rem;
 }
+.bodytext p {
+  font-size: 1.25rem;
+}
 /*Default for header/Footer iFrame*/
 /*Controls iFrame settings for header and footer accross website*/
 .headeriframe { /*Define the size of header iframe on each page*/
