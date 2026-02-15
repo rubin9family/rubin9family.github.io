@@ -153,6 +153,8 @@ body { /*Default Style for text and background across websites*/
 }
 /*Default settings for Form*/
 .defaultform {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   align-items: center;
   width: 95%;
