@@ -24,6 +24,7 @@
   gap: 1.5rem;
   margin-bottom: 2rem;
   background-color: #D3D3D3;
+  background: linear-gradient(to right, #D3D3D3, #F0F0F0, #D3D3D3);
   border-radius: 0.9rem;
   margin: 2rem;
   padding: 1rem;
