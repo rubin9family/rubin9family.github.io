@@ -28,7 +28,8 @@
 #footerframe .right-nav li a, .left-nav li a {
   color: white;
   text-decoration: none;
-  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Footer Nav Bar*/
+  font-family: 'Atma', 'Times New Roman', Georgia, serif; /*Fallback of fonts for Footer Nav Bar*/
+  display: swap;
   font-weight: 100;
   font-size: 0.75rem;
   letter-spacing: 0.25rem;
