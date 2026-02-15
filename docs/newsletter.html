@@ -6,24 +6,22 @@
     <title>Newsletter</title> <!--Page title-->
     <link rel="stylesheet" href="css/global.css"> <!--Link to Global CSS File-->
     <link rel="stylesheet" href="css/main.css"> <!--Link to Main CSS File-->
-    <script src="js/script.js" defer></script> <!--Link to JavaScript file-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="js/form.js" defer></script>
   </head>
   <body> <!--This is where all the page content will go-->
     <iframe class="headeriframe" src="header.html"></iframe> <!--Header Iframe-->
 
     <h1>Newsletter</h1> <!--Page Title-->
 
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
     <form id="email-list">
       <input type="text" id="fname" placeholder="First Name" required><br>
-      <input type="text" id="lname" placeholder="Last Name" required></input><br>
+      <input type="text" id="lname" placeholder="Last Name" required><br>
       <input type="email" id="email" placeholder="Email" required><br>
       
-  
       <div class="g-recaptcha" data-sitekey="6LcPCWwsAAAAALdxtTOgBX07MuIIdCqtO_2hcDxL"></div>
 
-     <button class="jsbutton" type="submit">Submit</button>
+      <button class="jsbutton" type="submit">Submit</button>
     </form>
 
    
