@@ -56,7 +56,8 @@
   font-size: 1.25rem; /*Size for Nav Bar Text*/
   text-decoration: none; /*Remove defualt Underline*/
   color: #FFFEF5; /*Set color of Nav Bar Text to White*/
-  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Header Nav Bar*/
+  font-family: 'Atma', 'Times New Roman', Georgia, serif; /*Fallback of fonts for Header Nav Bar*/
+  display: swap;
 }
 #headerframe .main-nav li a:hover { /*Style for when hovering over each nav link*/
   color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
