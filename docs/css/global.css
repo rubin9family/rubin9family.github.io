@@ -154,7 +154,7 @@ body { /*Default Style for text and background across websites*/
 /*Default settings for Form*/
 .defaultform {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   align-items: center;
   width: 95%;
@@ -177,11 +177,13 @@ body { /*Default Style for text and background across websites*/
   display: block;
   width: 90%; /* Or whatever width looks good */
   margin: 0.5rem auto; /* Centers it and adds space */
+  border-radius: 0.9rem;
   padding: 0.5rem;
 }
 .g-recaptcha {
   margin: 1rem auto;
   padding: 1.25rem
+  border-radius: 0.9rem;
 }
 
 /*For Mobile Screens*/
