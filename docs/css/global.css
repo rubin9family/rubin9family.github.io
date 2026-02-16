@@ -69,7 +69,7 @@ body { /*Default Style for text and background across websites*/
 .defaultmain {
   display: flex;
   width: 95%;
-  margin: 0rem auto;
+  margin: 0.5rem auto;
   gap: 1rem;
   text-align: center;
   align-items: stretch;
