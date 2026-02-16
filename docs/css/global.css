@@ -69,8 +69,8 @@ body { /*Default Style for text and background across websites*/
 .defaultmain {
   display: flex;
   width: 95%;
-  margin: 0.5rem auto;
-  gap: 0.5rem;
+  margin: 0rem auto;
+  gap: 1rem;
   text-align: center;
   align-items: stretch;
 }
@@ -85,6 +85,7 @@ body { /*Default Style for text and background across websites*/
 .defaultarticlebody section {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 .defaultsidebar {
   flex: 1 1 50%;
@@ -93,11 +94,13 @@ body { /*Default Style for text and background across websites*/
   overflow: hidden;
   background-color: #D3D3D3;
   border-radius: 0.9rem;
-  padding: 0.25rem;
+  padding: 0;
+  margin: 0;
 }
 .defaultsidebar section {
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 /*Gcalendar iFrame half screen Defaults*/
@@ -207,6 +210,7 @@ body { /*Default Style for text and background across websites*/
   .defaultmain {
     flex-direction: column;
     align-items: center;
+    gap: 0;
   }
   .defaultarticlebody {
     flex: auto;
@@ -234,6 +238,6 @@ body { /*Default Style for text and background across websites*/
   
   /*Header adjust for mobile*/
   .headeriframe {
-    height: 8rem;
+    height: 9rem;
   }
 }
