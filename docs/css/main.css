@@ -33,6 +33,7 @@
   margin: 0;
   font-size: 2rem;
   font-weight: bold;
+  max-width: 100%;
 }
 .notinline a {
   margin: auto;
@@ -44,6 +45,7 @@
   align-items: center;
   word-break: break-all;
   overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 /*Gmaps iframe in contacts*/
