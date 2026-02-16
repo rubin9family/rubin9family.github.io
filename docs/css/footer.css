@@ -1,3 +1,6 @@
+/*Import Altama font with weight 300, 400, 500, 600, 700*/
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
 /*Footer Body Styling*/
 #footerbody { /*Style of Body in Footer iframe*/
   background-color: #B71C1C; /*Footer Background color to red*/
