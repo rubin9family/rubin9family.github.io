@@ -42,6 +42,8 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  word-break: break-all;
+  overflow-wrap: break-word;
 }
 
 /*Gmaps iframe in contacts*/
