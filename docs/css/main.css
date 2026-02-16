@@ -65,7 +65,7 @@
 /*override default background color in contacts*/
 .contactssubmaincustom {
   background-color: #FFFEF5;
-  margin: 0.5rem auto;
+  margin: 0 auto;
 }
 
 .enlargebutton {
