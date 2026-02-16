@@ -69,8 +69,8 @@ body { /*Default Style for text and background across websites*/
 .defaultmain {
   display: flex;
   width: 95%;
-  margin: 1.25rem auto;
-  gap: 1rem;
+  margin: 0.5rem auto;
+  gap: 0.5rem;
   text-align: center;
   align-items: stretch;
 }
@@ -81,10 +81,11 @@ body { /*Default Style for text and background across websites*/
   flex-grow: 1;
   background-color: #D3D3D3;
   border-radius: 0.9rem;
-  padding: 1.25rem;
+  padding: 0;
 }
 .defaultarticlebody section {
   margin: 0;
+  padding: 0;
 }
 .defaultsidebar {
   flex: 1;
@@ -94,10 +95,11 @@ body { /*Default Style for text and background across websites*/
   overflow: hidden;
   background-color: #D3D3D3;
   border-radius: 0.9rem;
-  padding: 1.25rem;
+  padding: 0.25rem;
 }
 .defaultsidebar section {
   margin: 0;
+  padding: 0;
 }
 
 /*Gcalendar iFrame half screen Defaults*/
