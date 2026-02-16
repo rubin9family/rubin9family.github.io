@@ -1,6 +1,6 @@
 /*index.html section alignment and settings*/
 .indexsidebar {
-  flex: 1;
+  flex: 1 1 50%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -37,7 +37,7 @@
 }
 .notinline a {
   margin: auto;
-  font-size: clamp(10px, 2vw, 25px); ;
+  font-size: clamp(16px, 2vw, 25px);
   font-weight: normal;
   display: flex;
   flex-wrap: wrap;
