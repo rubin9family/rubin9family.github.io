@@ -1,3 +1,6 @@
+/*Import Altama font with weight 300, 400, 500, 600, 700*/
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
 /*Header Body Styling*/
 #headerbody { /*Style of Body in Header iframe*/ /**/
   background-color: #D66A28; /*Header Color to orange*/
