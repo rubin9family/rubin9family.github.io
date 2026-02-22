@@ -84,7 +84,7 @@
   width: 300px;
   height: auto;
   display: block;
-  border-radius: 0.9rem;
+  border-radius: 3rem;
   margin: 0.5rem auto;
 }
 /*For Mobile*/
@@ -97,5 +97,8 @@
   .notinline {
     margin-right: 0;
     margin-left: 0;
+  }
+  .banner {
+    width: 95%
   }
 }
