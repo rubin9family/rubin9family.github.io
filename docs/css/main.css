@@ -81,7 +81,7 @@
   background: linear-gradient(to right, #D3D3D3, #F0F0F0, #D3D3D3);
 }
 .banner {
-  width: 300px;
+  width: 450px;
   height: auto;
   display: block;
   border-radius: 3rem;
@@ -100,6 +100,6 @@
   }
   .banner {
     width: 95%;
-    max-width: 300px;
+    max-width: 450px;
   }
 }
