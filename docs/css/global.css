@@ -210,7 +210,7 @@ body { /*Default Style for text and background across websites*/
   .defaultmain {
     flex-direction: column;
     align-items: center;
-    gap: 0;
+    gap: 5px;
   }
   .defaultarticlebody {
     flex: auto;
