@@ -81,9 +81,10 @@
   background: linear-gradient(to right, #D3D3D3, #F0F0F0, #D3D3D3);
 }
 .banner {
-  width: 100%;
+  width: 300px;
   height: auto;
   display: block;
+  border-radius: 0.9rem;
 }
 /*For Mobile*/
 @media screen and (max-width: 800px) {
