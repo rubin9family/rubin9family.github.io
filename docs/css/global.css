@@ -212,6 +212,14 @@ body { /*Default Style for text and background across websites*/
   margin-block-end: 0.67em; 
 }
 
+.h3toh2 {
+  font-size: 1.5em; 
+  font-weight: bold; 
+  margin-block-start: 0.83em; 
+  margin-block-end: 0.83em; 
+}
+
+
 /*For Mobile Screens*/
 @media screen and (max-width: 800px) {
   /*Dual Screen defaults for Mobile*/
