@@ -91,6 +91,7 @@
 }
 .aboutoverride {
   font-size: clamp(16px, 2vw, 25px);
+  font-weight: 600;
 }
 
 /*For Mobile*/
