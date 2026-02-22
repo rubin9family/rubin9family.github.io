@@ -80,16 +80,22 @@
 .overridebackground {
   background: linear-gradient(to right, #D3D3D3, #F0F0F0, #D3D3D3);
 }
-.banner {
+
+/*About Settings*/
+.banner { /*Settings for Banner Image*/
   width: 450px;
   height: auto;
   display: block;
   border-radius: 3rem;
   margin: 0.5rem auto;
 }
+.aboutoverride {
+  font-size: clamp(16px, 2vw, 25px);
+}
+
 /*For Mobile*/
 @media screen and (max-width: 800px) {
-  /*Idex.html page for mobile screens*/
+  /*Index.html page for mobile screens*/
   .indexsidebar {
     flex: auto;
     width: 100%;
@@ -98,6 +104,8 @@
     margin-right: 0;
     margin-left: 0;
   }
+  
+  /*About.html page settings for mobile*/
   .banner {
     width: 90%;
     max-width: 450px;
