@@ -20,7 +20,7 @@
   width: 100%;
   height: 100%;
   grid-template-columns: auto 1fr;
-  align-items: start;
+  align-items: center;
 }
 
 /*Header Logo Styleing*/
