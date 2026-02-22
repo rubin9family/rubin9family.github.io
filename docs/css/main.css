@@ -47,7 +47,13 @@
   overflow-wrap: break-word;
   max-width: 100%;
 }
-
+/*Contacts Video Demo Settings*/
+#demovideo {
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;
+}
 /*Gmaps iframe in contacts*/
 #contactgmapsquarter {
   border: none; 
