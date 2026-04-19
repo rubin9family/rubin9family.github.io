@@ -15,7 +15,7 @@
 #footernavdiv {
   display: grid;
   height: 5.9rem;
-  grid-template-columns: auto;
+  grid-template-columns: auto auto;
   align-content: center;
 }
  
