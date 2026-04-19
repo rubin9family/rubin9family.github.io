@@ -51,8 +51,10 @@ body { /*Default Style for text and background across websites*/
   box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 2px 3px rgba(0, 0, 0, 0.1);
   border: 1px solid #ccc;
 }
-
-
+/*Default Settings for website titles and subtitles*/
+.title h2 {
+  font-weight: 500;
+}
 /*Default Centering for Tables throughout website*/
 .tablecenter { /*Table to be centered*/
   /*Allows Table to be in the center of webpage*/
