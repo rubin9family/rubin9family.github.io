@@ -9,11 +9,11 @@
   background-color: #D3D3D3;
 }
 
-.aboutoverride {
+.infooverride {
   font-size: clamp(16px, 2vw, 25px);
   font-weight: 400;
 }
-.aboutoverride p {
+.infooverride p {
   width: 99%;
 }
 
