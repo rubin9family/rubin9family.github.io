@@ -148,6 +148,7 @@ body { /*Default Style for text and background across websites*/
 .twocolumn {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   gap: 20px;
   background-color: #FFFEF5;
   border-radius: 0;
