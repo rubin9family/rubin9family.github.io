@@ -53,7 +53,7 @@ body { /*Default Style for text and background across websites*/
 }
 /*Default Settings for website titles and subtitles*/
 .title h2 {
-  font-weight: 500;
+  font-weight: 600;
 }
 /*Default Centering for Tables throughout website*/
 .tablecenter { /*Table to be centered*/
