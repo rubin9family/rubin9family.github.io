@@ -12,23 +12,18 @@
 }
 
 /*Footer Grid Container styles*/
-#footerframe {
+#footernavdiv {
   display: grid;
   height: 5.9rem;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
   align-content: center;
 }
-#footerframe .box1 img{
-  height: 4.7rem;
-  width: auto;
-  padding-left: 0.6rem;
-}
  
-#footerframe .right-nav li, .left-nav li {
+#footernavdiv .footerulnav li {
   list-style-type: none;
  }
  
-#footerframe .right-nav li a, .left-nav li a {
+#footernavdiv .footerulnav li a {
   color: white;
   text-decoration: none;
   font-family: 'Atma', 'Times New Roman', Georgia, serif; /*Fallback of fonts for Footer Nav Bar*/
@@ -37,7 +32,7 @@
   letter-spacing: 0.25rem;
   padding: 0 0.9rem;
  }
-#footerframe .right-nav li a:hover, .left-nav li a:hover { /*Style for when hovering over each nav link*/
+#footernavdiv .footerulnav li a:hover { /*Style for when hovering over each nav link*/
   color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
   text-decoration: none; /*Nav Bar Text to underline when Hovering*/
 }
@@ -45,12 +40,9 @@
 /*For Mobile*/
 @media screen and (max-width: 800px) {
     /*Footer Adjust for mobile*/
-  #footerframe {
+  #footernavdiv {
     grid-template-columns: auto auto;
     align-items: center;
     height: 100%;
-  }
-  #footerframe .box1 {
-    display: none;
   }
 }
