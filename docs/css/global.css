@@ -19,14 +19,15 @@ body { /*Default Style for text and background across websites*/
   text-align: center;
   width: 95%;
   margin: 1.25rem auto;
-  background-color: #D3D3D3;
-  border-radius: 0.9rem;
+  background-color: #FFFEF5;
+  border-radius: 0;
   padding: 1.25rem;
 }
 .bodytext p {
   font-size: 1.25rem;
   width: 85%;
   margin: 1.25rem auto;
+  weight: normal;
 }
 /*Default for header/Footer iFrame*/
 /*Controls iFrame settings for header and footer accross website*/
@@ -78,8 +79,8 @@ body { /*Default Style for text and background across websites*/
   flex: 1 1 50%;
   display: flex;
   flex-direction: column;
-  background-color: #D3D3D3;
-  border-radius: 0.9rem;
+  background-color: #FFFEF5;
+  border-radius: 0;
   padding: 0;
 }
 .defaultarticlebody section {
@@ -93,7 +94,7 @@ body { /*Default Style for text and background across websites*/
   flex-direction: column;
   overflow: hidden;
   background-color: #D3D3D3;
-  border-radius: 0.9rem;
+  border-radius: 0;
   padding: 0;
   margin: 0;
 }
@@ -107,11 +108,11 @@ body { /*Default Style for text and background across websites*/
 .gcalendariframehalf {
   border: none; 
   overflow: hidden;
-  border-radius: 0.9rem;
+  border-radius: 0;
   width: 100%;
   flex-grow: 1;
   height: auto;
-  min-height: 400px;
+  min-height: 600px;
   display: block;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   border: 1px solid rgba(0,0,0,0.05);
@@ -120,7 +121,7 @@ body { /*Default Style for text and background across websites*/
 .gcalendariframefull {
   border: none; 
   overflow: hidden;
-  border-radius: 0.9rem;
+  border-radius: 0;
   width: 95%;
   flex-grow: 1;
   margin-left: auto;
@@ -135,73 +136,6 @@ body { /*Default Style for text and background across websites*/
 /*Default for spacers*/
 .spacer {
   margin-top: 1rem;
-}
-
-/*Embeded PDF Default*/
-.pdffullpage {
-  display: block;
-  margin-bottom: 2.5rem;
-  margin-right: auto;
-  margin-left: auto;
-  width: 95%;
-  max-width: 850px;
-  height: 1000px;
-}
-
-/*Default for JS buttons*/
-.jsbutton {
-  background-color: #D66A28;
-  color: #FFFEF5;
-  border: 2px solid #B71C1C;
-  border-radius: 0.9rem;
-  padding: 0.5rem;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  font-size: 1rem;
-  text-decoration: none;
-  cursor: pointer;
-  font-family: 'Atma', 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
-}
-.jsbutton:hover {
-  background-color: #B71C1C;
-  border: 2px solid #D66A28;
-}
-/*Default settings for Form*/
-.defaultform {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  width: 95%;
-  max-width: 600px;
-  min-height: 200px;
-  margin: 1.25rem auto;
-  background-color: #D3D3D3;
-  background: linear-gradient(to right, #D3D3D3, #F0F0F0, #D3D3D3);
-  border-radius: 0.9rem;
-  padding: 1.25rem;
-}
-/*Center Div Inside Forms*/
-.defaultform p {
-  color: #1A1A1A;
-}
-.defaultform h2 {
-  color: #1A1A1A;
-  font-weight: bold;
-}
-.defaultform input {
-  display: block;
-  width: 90%; /* Or whatever width looks good */
-  margin: 0.5rem auto; /* Centers it and adds space */
-  border-radius: 0.9rem;
-  padding: 0.5rem;
-  border: 4px solid #D66A28;
-  color: #B71C1C;
-}
-.g-recaptcha {
-  margin: 1rem auto;
-  padding: 1.25rem;
-  border-radius: 0.9rem;
 }
 
 /*Heading Override*/
@@ -250,14 +184,6 @@ body { /*Default Style for text and background across websites*/
     min-width: auto;
     width: 95%;
   }
-
-  /*pdf full page default for mobile*/
-  .pdffullpage {
-    width: 97%;
-    max-width: none;
-    height: 600px;
-  }
-  
   /*Header adjust for mobile*/
   .headeriframe {
     height: 9rem;
