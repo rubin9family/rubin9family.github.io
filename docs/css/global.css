@@ -29,7 +29,7 @@ body { /*Default Style for text and background across websites*/
   font-size: 1.25rem;
   width: 85%;
   margin: 1.25rem auto;
-  weight: normal;
+  font-weight: normal;
 }
 /*Default for header/Footer iFrame*/
 /*Controls iFrame settings for header and footer accross website*/
