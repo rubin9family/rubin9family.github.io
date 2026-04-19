@@ -219,6 +219,12 @@ body { /*Default Style for text and background across websites*/
   margin-block-end: 0.83em; 
 }
 
+.dottedline { /*Dotted Line design*/
+  border: none;
+  border-top: 2px dashed #333;
+  margin: 20px 0; 
+}
+
 
 /*For Mobile Screens*/
 @media screen and (max-width: 800px) {
