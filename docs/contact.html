@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!--Declares the file to be html-->
+<html lang="en"> <!--This is the HTML main tag with English declared as the language-->
+  <head> <!--This is the head tag where the title, scripts, and all infos relative to this page.-->
+    <meta charset="UTF-8"> <!--Specifies the characters used-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title> <!--Page title-->
+    <link rel="stylesheet" href="css/global.css"> <!--Link to Global CSS File-->
+    <link rel="stylesheet" href="css/main.css"> <!--Link to Main CSS File-->
+    <script src="js/script.js" defer></script> <!--Link to JavaScript file-->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+  </head>
+  <body> <!--This is where all the page content will go-->
+    <iframe class="headeriframe" src="header.html"></iframe> <!--Header Iframe-->
+    
+    <h1>Contact Us</h1> <!--Page Title-->
+
+    <main class="defaultmain"> <!--Main text container-->
+    <article class="defaultarticlebody contactssubmaincustom"> <!--Left side container-->
+      <section> <!--Section 1 of Article container-->
+        <div class="bodytext contactssubmaincustom">
+          <h2 class="h2toh1">Contact Information</h2>
+          <div class="notinline">
+            <h3 class="h3toh2">Our Phone Number is:</h3> <!--Tel Info Title-->
+            <a href="tel:2012012012">201-201-2012</a>  <!--Tel Info to open in phone app-->
+            <button class="jsbutton" onclick="copytel()">Copy Our Phone Number</button> <!--Copy tel Button-->
+          </div> 
+          
+          <div class="notinline spacer">
+            <h3 class="h3toh2">Our Email is:</h3> <!--Email Info Title-->
+            <a href="mailto:info@wormwoodhillscomunitycenter.com">Info@WormWoodHillsComunityCenter.com</a> <!--Email Info Open in Email app-->
+            <button class="jsbutton" onclick="copyemail()">Copy Our Email</button> <!--Copy Email Button-->
+          </div>
+          <div class="notinline spacer">
+            <h3 class="h3toh2">Our WhatsApp Number is:</h3> <!--WhatsApp Info Title-->
+            <a href="https://wa.me/12012012012">1-201-201-2012</a> <!--Email Info Open in WhatsApp-->
+            <button class="jsbutton" onclick="copywhatsapp()">Copy Our WhatsApp Number</button> <!--Copy WhatsApp Button-->
+          </div>
+        </div>
+      </section>
+      
+      </article> 
+      <aside class="defaultsidebar contactssubmaincustom"> <!--Container for right section-->
+         <div class="bodytext contactssubmaincustom">
+          <h2 class="h2toh1">Location</h2>
+          <div class="notinline">
+            <h3 class="h3toh2">Our Address is:</h3> <!--Address Info title-->
+            <a href="https://maps.app.goo.gl/3AqBRWntjVpLLjqP6">55 Wormwood Hill Road, Wormwood Hills NJ, 00411</a> <!--Address info to open gmaps-->
+            <button class="jsbutton" onclick="copyadd()">Copy Our Address</button> <!--Copy Address Button-->
+          </div>
+          <div class="notinline">
+            <iframe id="contactgmapsquarter" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1563188.3349139972!2d-74.72432305!3d40.073132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c0fb959e00409f%3A0x2cd27b07f83f6d8d!2sNew%20Jersey!5e0!3m2!1sen!2sus!4v1770603907590!5m2!1sen!2sus"></iframe>
+          </div>
+        </div>
+      </aside>
+    </main>
+    
+    <video id="demovideo" playsinline controls> <!--Video on main page-->
+      <source src="vid/demovideo.mp4" type="video/mp4">
+      If you see this, your browser does not support the HTML video tag.
+    </video>
+    
+    <iframe class="footeriframe" src="footer.html"></iframe> <!--Footer iFrame-->
+    
+ </body> <!--Where the page content ends-->
+</html> <!--Where html tag ends-->

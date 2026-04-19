@@ -1,0 +1,275 @@
+/*Force size calculations to match properly*/
+* {
+  box-sizing: border-box;
+}
+/*Header Body Styling*/
+#headerbody { /*Style of Body in Header iframe*/ /**/
+  background-color: #D66A28; /*Header Color to orange*/
+  text-align: center; /*Header Text Centered*/
+  height: 4.7rem;
+  width: 100%;
+  height: 100vh; /* Fills the iframe height */
+  overflow: hidden; /* Stops scrollbars from appearing inside the iframe */
+  box-sizing: border-box;
+  margin: 0;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+#headerframe {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+}
+
+/*Header Logo Styleing*/
+#headerframe .logo img{
+  position: relative;
+  height: 4.7rem;
+  width: auto;
+  display: block;
+  margin-right: 1rem;
+}
+
+/*Header Nav Styling*/
+#headerframe .headernavdiv { /*div that conains header main-nav*/
+  display: flex;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#headerframe .main-nav {
+  /*For fixing the headers overflow to not separate multiword links*/
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0; 
+  list-style: none;
+}
+#headerframe .main-nav li { /*Style for the Nav bar in header*/
+  padding: 0 0.9rem;
+}  
+#headerframe .main-nav li a { /*Style for the text in each nav line*/
+  font-weight: 800; /*Bold Nav Bar Text*/
+  font-size: 1.25rem; /*Size for Nav Bar Text*/
+  text-decoration: none; /*Remove defualt Underline*/
+  color: #FFFEF5; /*Set color of Nav Bar Text to White*/
+  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Header Nav Bar*/
+}
+#headerframe .main-nav li a:hover { /*Style for when hovering over each nav link*/
+  color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
+  text-decoration: underline; /*Nav Bar Text to underline when Hovering*/
+}
+
+/*Footer Body Styling*/
+#footerbody { /*Style of Body in Footer iframe*/
+  background-color: #B71C1C; /*Footer Background color to red*/
+  color: #FFFEF5; /*Footer text color to white*/
+  width: 100%;
+  height: 100vh; /* Fills the iframe height */
+  overflow: hidden; /* Stops scrollbars from appearing inside the iframe */
+  box-sizing: border-box;
+}
+
+/*Footer Grid Container styles*/
+#footerframe {
+  display: grid;
+  height: 5.9rem;
+  grid-template-columns: auto auto auto;
+  align-content: center;
+}
+#footerframe .box1 img{
+  height: 4.7rem;
+  width: auto;
+  padding-left: 0.6rem;
+}
+ 
+#footerframe .right-nav li, .left-nav li {
+  list-style-type: none;
+ }
+ 
+#footerframe .right-nav li a, .left-nav li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Footer Nav Bar*/
+  font-weight: 100;
+  font-size: 0.75rem;
+  letter-spacing: 0.25rem;
+  padding: 0 0.9rem;
+ }
+#footerframe .right-nav li a:hover, .left-nav li a:hover { /*Style for when hovering over each nav link*/
+  color: #001A4D; /*Nav Bar Text to Dark Blue when Hovering*/
+  text-decoration: none; /*Nav Bar Text to underline when Hovering*/
+}
+
+/*Centering for Tables throughout website*/
+.tablecenter { /*Table to be centered*/
+  /*Allows Table to be in the center of webpage*/
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  font-size: clamp(16px, 2.5vw, 36px);
+}
+#tableshrink {
+  table-layout: fixed;
+}
+#tabletitle {
+  font-size: clamp(20px, 4vw, 48px);
+  font-weight: 800;
+}
+
+
+/*Controls iFrame settings for header and footer accross website*/
+.headeriframe { /*Define the size of header iframe on each page*/
+  border: none; /*Remove Excess border*/
+  display: block; /*Sets header iframe to block element*/
+  width: 100%; /*Sets header iframe width on each page */
+  height: 4.7rem; /*Sets header iframe height on each page */
+}
+.footeriframe { /*Define the size of the footer iframe on each page*/
+  display: block; /*Sets footer iframe to block element*/
+  width: 100%; /*Sets footer iframe width on each page */
+  height: 5.9rem; /*Sets footer iframe height on each page */
+  border: none; /*Remove Excess border*/
+}
+
+/*index.html section alignment and settings*/
+.indexmain {
+  display: flex;
+  width: 95%;
+  margin: 1.25rem auto;
+  gap: 1.8rem;
+  text-align: center;
+  align-items: stretch;
+}
+.articlebody {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #D3D3D3;
+  border-radius: 0.9rem;
+  padding: 1.25rem;
+}
+.articlebody section {
+  margin-bottom: 2.5rem;
+}
+.sidebar {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-radius: 0.9rem;
+  padding: 0;
+  background-color: #D3D3D3;
+}
+#eventsiframe {
+  border: none; 
+  overflow: hidden;
+  border-radius: 0.9rem;
+  width: 100%;
+  flex-grow: 1;
+  height: auto;
+  min-height: 400px;
+  /*min-width: 25.5rem;*/
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0,0,0,0.05);
+  
+}
+#mainvideo {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/*Default Settings for website main text on certain pages*/
+.bodytext {
+  text-align: center;
+  width: 95%;
+  margin: 1.25rem auto;
+  background-color: #D3D3D3;
+  border-radius: 0.9rem;
+  padding: 1.25rem;
+}
+
+/*Contact Button Formating*/
+.inline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.inline h2 {
+  margin: 0;
+}
+.inline button{
+  background-color: #D66A28;
+  color: #FFFEF5;
+  border: 2px solid #B71C1C;
+  border-radius: 0.9rem;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+.inline button:hover{
+  background-color: #B71C1C;
+  border: 2px solid #D66A28;
+}
+
+/*Default Settings for website*/
+body { /*Default Style for text and background across websites*/
+  color: #1A1A1A; /*Sets body text font color to Black*/
+  text-align: center; /*Centers boby Text on webpage*/
+  margin: 0; /*Sets zero margin for body text*/
+  padding: 0; /*Sets padding for body text to 0*/
+  background-color: #FFFEF5; /*Sets body Background to White */
+  font-family: 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
+}
+
+/*For Mobile*/
+@media screen and (max-width: 768px) {
+  /*Idex.html page for mobile screens*/
+  .indexmain {
+    flex-direction: column;
+    align-items: center;
+  }
+  .articlebody {
+    flex: auto;
+    width: 100%;
+  }
+  .sidebar {
+    flex: auto;
+    width: 100%;
+  }
+  #eventsiframe {
+    min-width: auto;
+    width: 100%;
+  }
+  
+  /*Header adjust for mobile*/
+  .headeriframe {
+    height: 6rem;
+  }
+  #headerframe .logo img{
+    height: 6rem;
+  }
+  
+  /*Footer Adjust for mobile*/
+  #footerframe {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    height: 100%;
+  }
+  #footerframe .box1 {
+    display: none;
+  }
+}

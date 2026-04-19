@@ -1,0 +1,259 @@
+/*Import Altama font with weight 300, 400, 500, 600, 700*/
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+
+/*Force size calculations to match properly*/
+* {
+  box-sizing: border-box;
+}
+/*Default Settings for website*/
+body { /*Default Style for text and background across websites*/
+  color: #1A1A1A; /*Sets body text font color to Black*/
+  text-align: center; /*Centers boby Text on webpage*/
+  margin: 0; /*Sets zero margin for body text*/
+  padding: 0; /*Sets padding for body text to 0*/
+  background-color: #FFFEF5; /*Sets body Background to White */
+  font-family: 'Atma', 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
+}
+/*Default Settings for website main text on certain pages*/
+.bodytext {
+  text-align: center;
+  width: 95%;
+  margin: 1.25rem auto;
+  background-color: #D3D3D3;
+  border-radius: 0.9rem;
+  padding: 1.25rem;
+}
+.bodytext p {
+  font-size: 1.25rem;
+  width: 85%;
+  margin: 1.25rem auto;
+}
+/*Default for header/Footer iFrame*/
+/*Controls iFrame settings for header and footer accross website*/
+.headeriframe { /*Define the size of header iframe on each page*/
+  border: none; /*Remove Excess border*/
+  display: block; /*Sets header iframe to block element*/
+  width: 100%; /*Sets header iframe width on each page */
+  height: 4.7rem; /*Sets header iframe height on each page */
+  box-sizing: border-box;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 2px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+.footeriframe { /*Define the size of the footer iframe on each page*/
+  display: block; /*Sets footer iframe to block element*/
+  width: 100%; /*Sets footer iframe width on each page */
+  height: 5.9rem; /*Sets footer iframe height on each page */
+  border: none; /*Remove Excess border*/
+  box-sizing: border-box;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), 0 2px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+}
+
+
+/*Default Centering for Tables throughout website*/
+.tablecenter { /*Table to be centered*/
+  /*Allows Table to be in the center of webpage*/
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  font-size: clamp(16px, 2.5vw, 36px);
+}
+.tableshrink {
+  table-layout: fixed;
+}
+#tabletitle {
+  font-size: clamp(20px, 4vw, 48px);
+  font-weight: 800;
+}
+/*Default Settings for Dual split pages sidebar*/
+.defaultmain {
+  display: flex;
+  width: 95%;
+  margin: 0.5rem auto;
+  gap: 1rem;
+  text-align: center;
+  align-items: stretch;
+}
+.defaultarticlebody {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: #D3D3D3;
+  border-radius: 0.9rem;
+  padding: 0;
+}
+.defaultarticlebody section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.defaultsidebar {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #D3D3D3;
+  border-radius: 0.9rem;
+  padding: 0;
+  margin: 0;
+}
+.defaultsidebar section {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/*Gcalendar iFrame half screen Defaults*/
+.gcalendariframehalf {
+  border: none; 
+  overflow: hidden;
+  border-radius: 0.9rem;
+  width: 100%;
+  flex-grow: 1;
+  height: auto;
+  min-height: 400px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+/*Gcalendar iFrame full screen Defaults*/
+.gcalendariframefull {
+  border: none; 
+  overflow: hidden;
+  border-radius: 0.9rem;
+  width: 95%;
+  flex-grow: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
+  min-height: 800px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0,0,0,0.05);
+}
+
+/*Default for spacers*/
+.spacer {
+  margin-top: 1rem;
+}
+
+/*Embeded PDF Default*/
+.pdffullpage {
+  display: block;
+  margin-bottom: 2.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 95%;
+  max-width: 850px;
+  height: 1000px;
+}
+
+/*Default for JS buttons*/
+.jsbutton {
+  background-color: #D66A28;
+  color: #FFFEF5;
+  border: 2px solid #B71C1C;
+  border-radius: 0.9rem;
+  padding: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 1rem;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: 'Atma', 'Times New Roman', Georgia, serif; /*Fallback of fonts for Body Text*/
+}
+.jsbutton:hover {
+  background-color: #B71C1C;
+  border: 2px solid #D66A28;
+}
+/*Default settings for Form*/
+.defaultform {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 95%;
+  max-width: 600px;
+  min-height: 200px;
+  margin: 1.25rem auto;
+  background-color: #D3D3D3;
+  background: linear-gradient(to right, #D3D3D3, #F0F0F0, #D3D3D3);
+  border-radius: 0.9rem;
+  padding: 1.25rem;
+}
+/*Center Div Inside Forms*/
+.defaultform p {
+  color: #1A1A1A;
+}
+.defaultform h2 {
+  color: #1A1A1A;
+  font-weight: bold;
+}
+.defaultform input {
+  display: block;
+  width: 90%; /* Or whatever width looks good */
+  margin: 0.5rem auto; /* Centers it and adds space */
+  border-radius: 0.9rem;
+  padding: 0.5rem;
+  border: 4px solid #D66A28;
+  color: #B71C1C;
+}
+.g-recaptcha {
+  margin: 1rem auto;
+  padding: 1.25rem;
+  border-radius: 0.9rem;
+}
+
+/*Heading Override*/
+.h2toh1 {
+  font-size: 2em; 
+  font-weight: bold; 
+  margin-block-start: 0.67em; 
+  margin-block-end: 0.67em; 
+}
+
+.h3toh2 {
+  font-size: 1.5em; 
+  font-weight: bold; 
+  margin-block-start: 0.83em; 
+  margin-block-end: 0.83em; 
+}
+
+
+/*For Mobile Screens*/
+@media screen and (max-width: 800px) {
+  /*Dual Screen defaults for Mobile*/
+  .defaultmain {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+  .defaultarticlebody {
+    flex: auto;
+    width: 100%;
+  }
+  .defaultsidebar {
+    flex: auto;
+    width: 100%;
+  }
+  .gcalendariframehalf {
+    min-width: auto;
+    width: 100%;
+  }
+  .gcalendariframefull {
+    min-width: auto;
+    width: 95%;
+  }
+
+  /*pdf full page default for mobile*/
+  .pdffullpage {
+    width: 97%;
+    max-width: none;
+    height: 600px;
+  }
+  
+  /*Header adjust for mobile*/
+  .headeriframe {
+    height: 9rem;
+  }
+}

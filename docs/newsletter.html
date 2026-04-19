@@ -1,0 +1,47 @@
+<!DOCTYPE html> <!--Declares the file to be html-->
+<html lang="en"> <!--This is the HTML main tag with English declared as the language-->
+  <head> <!--This is the head tag where the title, scripts, and all infos relative to this page.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"> <!--Specifies the characters used-->
+    <title>Newsletter</title> <!--Page title-->
+    <link rel="stylesheet" href="css/global.css"> <!--Link to Global CSS File-->
+    <link rel="stylesheet" href="css/main.css"> <!--Link to Main CSS File-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="js/form.js" defer></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+  </head>
+  <body> <!--This is where all the page content will go-->
+    <iframe class="headeriframe" src="header.html"></iframe> <!--Header Iframe-->
+
+    <h1>Newsletter</h1> <!--Page Title-->
+    <form class="defaultform" id="email-list">
+      <h2>Subscribe to our Weekly Newsletter by email!</h2>
+      <div class="form-group">
+        <label for="fname" style="display:none;">First Name</label> 
+        <input type="text" id="fname" name="fname" placeholder="First Name" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="lname" style="display:none;">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="Last Name" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="email" style="display:none;">Email</label>
+        <input type="email" id="email" name="email" placeholder="Email" required>
+      </div>
+  
+      <div class="g-recaptcha" data-sitekey="6LcPCWwsAAAAALdxtTOgBX07MuIIdCqtO_2hcDxL"></div>
+
+      <button class="jsbutton" type="submit">Submit</button>
+    </form>
+   
+    
+    <embed class="pdffullpage" src="pdf/current/pdf.pdf" type="application/pdf"> <!--Embeded PDF-->
+    
+    <iframe class="footeriframe" src="footer.html"></iframe> <!--Foot iFrame-->
+ </body> <!--Where the page content ends-->
+</html> <!--Where html tag ends-->

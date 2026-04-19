@@ -1,0 +1,71 @@
+<!DOCTYPE html> <!--Declares the file to be html-->
+<html lang="en"> <!--This is the HTML main tag with English declared as the language-->
+  <head> <!--This is the head tag where the title, scripts, and all infos relative to this page.-->
+    <meta charset="UTF-8"> <!--Specifies the characters used-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wormwood Hills Community Center</title>
+    <link rel="stylesheet" href="css/global.css"> <!--Link to Global CSS File-->
+    <link rel="stylesheet" href="css/main.css"> <!--Link to Main CSS File-->
+    <script src="js/script.js" defer></script> <!--Link to JavaScript file-->
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+  </head>
+  <body> <!--This is where all the page content will go-->
+    
+    <header> <!--Begining of Header-->
+      <iframe class="headeriframe" src="header.html"></iframe> <!--Header Iframe-->
+    </header>
+    
+    <div class="titlebox"> <!--Begining of title-->
+      <h1>Welcome to Wormwood Hills Community Center.</h1> <!--Page Title-->
+    </div>
+    
+    <div class="title"> <!--Begining of subtitle-->
+      <h2>The only community center exclusively for the Wormwood Hills Residents.</h2> <!--Page Subtitle Part 2-->
+    </div>
+    
+    <video id="mainvideo" autoplay muted loop playsinline> <!--Video on main page-->
+      <source src="vid/mainvideo.mp4" type="video/mp4">
+      If you see this, your browser does not support the HTML video tag.
+    </video>
+    
+    <main class="defaultmain"> <!--Main text container-->
+    <article class="defaultarticlebody"> <!--Left side container-->
+      <section> <!--Section 1 of Article container-->
+        <h3 id="tabletitle"><b>Hours of Operation:</b></h3> <!--Title for HoO-->
+        <div class='tablecenter'> <!--Start of Divider that allows for centering HoO Table-->
+          <table class="tableshrink"> <!--This is the Hours of Operation table at the top of the web page-->
+            <tr> <td><b>Sunday: </b></td> <td>7:30</td> <td>AM</td> <td>to</td> <td>9:00</td> <td>PM</td> </tr> 
+    
+            <tr> <td><b>Monday: </b></td> <td>6:30</td> <td>AM</td> <td>to</td> <td>8:00</td> <td>PM</td> </tr> 
+
+            <tr> <td><b>Tuesday: </b></td> <td>6:30</td> <td>AM</td> <td>to</td> <td>8:30</td> <td>PM</td> </tr> 
+
+            <tr> <td><b>Wednesday: </b></td> <td>6:30</td> <td>AM</td> <td>to</td> <td>8:15</td> <td>PM</td> </tr> 
+
+            <tr> <td><b>Thursday: </b></td> <td>6:30</td> <td>AM</td> <td>to</td> <td>8:30</td> <td>PM</td> </tr> 
+
+            <tr> <td><b>Friday: </b></td> <td>6:30</td> <td>AM</td> <td>to</td> <td>9:45</td> <td>PM</td> </tr>
+
+            <tr> <td><b>Saturday: </b></td> <td>6:30</td> <td>AM</td> <td>to</td> <td>10:00</td> <td>PM</td> </tr>
+          </table> <!--HoO Table ends here-->
+        </div> <!--End of HoO Div table-->
+        <div class="spacer">
+          <button class="jsbutton enlargebutton" onclick="copytel()">Call Us Now</button> <!--Copy tel Button-->
+        </div>
+      </section>
+      
+      </article> 
+      <aside class="indexsidebar"> <!--Container for right section-->
+        <!--<iframe id="eventsiframe" src="https://calendar.google.com/calendar/embed?height=800&wkst=1&ctz=America%2FNew_York&mode=AGENDA&showTabs=0&src=MDMyNjA1ZTQ2NWRiZTYxZTNlZDJhNzI5NzI5MDFiNDNjODQ2ZmJmNWNiYWZhZGI1OTdiYWVmZjVlMWMzMmIxN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986cb"></iframe>-->
+        <iframe class="gcalendariframehalf" src="https://calendar.google.com/calendar/embed?height=800&wkst=1&ctz=America%2FNew_York&mode=AGENDA&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0&bgcolor=%23D3D3D3&src=MDMyNjA1ZTQ2NWRiZTYxZTNlZDJhNzI5NzI5MDFiNDNjODQ2ZmJmNWNiYWZhZGI1OTdiYWVmZjVlMWMzMmIxN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D66A28"></iframe>
+      </aside>
+    </main>  
+    
+    <footer>  <!--Begining of footer-->
+      <iframe class="footeriframe" src="footer.html"></iframe> <!--Foot iFrame-->
+    </footer>
+ </body> <!--Where the page content ends-->
+</html> <!--Where html tag ends-->
